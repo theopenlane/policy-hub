@@ -12,19 +12,22 @@ Each policy is written in Markdown and includes standardized frontmatter metadat
 - Each file is a single policy document
 
 ```
-security
-├── access-control.md
-├── change-management.md
-├── disaster-recovery.md
-├── employee.md
-├── encryption.md
-├── incident-response.md
-├── log.md
-├── password.md
-├── risk-assessment.md
-├── testing.md
-├── vendor.md
-└── workstation.md
+├── security
+│   ├── access-control.md
+│   ├── change-management.md
+│   ├── disaster-recovery.md
+│   ├── employee.md
+│   ├── encryption.md
+│   ├── incident-response.md
+│   ├── log.md
+│   ├── password.md
+│   ├── risk-assessment.md
+│   ├── testing.md
+│   ├── vendor.md
+│   └── workstation.md
+├── availability
+│   ├── availability.md
+│   └── business-continuity.md
 ```
 
 ## File Structure
