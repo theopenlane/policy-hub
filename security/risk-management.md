@@ -1,5 +1,5 @@
 ---
-title: Risk Assessment
+title: Risk Management
 satisfies:
   SOC 2:
     - CC3.1   # Specifies suitable objectives for risk management

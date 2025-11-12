@@ -3,7 +3,8 @@ title: Change Management
 satisfies:
   SOC 2:
     - CC8.1 # change management
-    - CC7.4 # incident response
+    - CC7.2   # Change management procedures include testing prior to implementation
+    - CC7.3   # Changes are authorized and tested before release
 tags:
     - security
 ---
@@ -23,16 +24,28 @@ Unmanaged changes can introduce vulnerabilities, outages, or compliance failures
 1. All code changes must be made through a pull request.
 1. Each pull request must be reviewed and approved by at least one peer before merging.
 1. Branch protection rules must enforce required approvals and prevent unauthorized changes.
-1. Emergency fixes may be pushed without prior review to resolve urgent issues, but must be reviewed within two business days.
-1. Documentation-only changes, marketing website updates, and other non-substantive code changes are exempt from peer review.
+1. Emergency fixes may be pushed without prior review and testing to resolve an incident, but must be reviewed within two business days.
+1. Documentation-only changes, marketing website updates, and other non-substantive code changes are exempt from peer review and mandatory testing.
 1. Dependency updates may be merged without an additional reviewer, provided release notes are reviewed prior to merging.
+1. All production code changes that modify product functionality must be tested through the organization’s continuous integration (CI) system prior to merge.
+1. Testing must not be conducted solely in local development environments or in live production systems.
+
+### Client Releases
+
+1. New client releases must undergo testing before general availability.
+1. Testing must verify major product features on supported platforms.
+1. New features should be released first through an unstable or beta channel before inclusion in stable releases.
+1. Exception: urgent security fixes may be released directly to stable channels.
+
 
 ### Infrastructure Changes
 
 1. Infrastructure changes must be communicated in advance to relevant teams.
-1. Where infrastructure is managed through infrastructure-as-code, changes must undergo peer review before deployment.
+1. Infrastructure should be managed “as code” to allow review, approval, and testing similar to application code.
+1. Where infrastructure is managed through infrastructure-as-code, changes must undergo peer review and testing before deployment to production.
 1. Manual infrastructure changes must have documented approvals retained for audit purposes.
 1. Critical infrastructure must have at least two designated administrators with full rights to prevent single points of failure.
+1. Testing should validate security controls, failover behavior, and monitoring or alerting coverage.
 
 ### Customer Account Changes
 

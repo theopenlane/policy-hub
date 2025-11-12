@@ -1,5 +1,5 @@
 ---
-title: Workstation Policy
+title: IT Policy
 satisfies:
   SOC 2:
     - CC6.1   # workstation access controls
