@@ -19,10 +19,10 @@ All {{company_name}} IT systems that are business critical. This policy applies 
 
 The following scenarios are excluded from the BC/DR plan scope[^3]:
 
-* Loss of availability for a production hosting service provider (i.e., <production hosting service provider, e.g., AWS>)
+* Loss of availability for a production hosting service provider (i.e., &lt;production hosting service provider, e.g., AWS&gt; )
 * Loss of availability of {{company_name}} satellite offices (these will be considered incidents)
 
-In the event of a loss of availability of a hosting service provider, the <driver of the response, e.g., VP of Global Support> will confer with the <assistants for the response, e.g., IT Manager and executive staff> to determine an appropriate response strategy[^4].
+In the event of a loss of availability of a hosting service provider, the &lt;driver of the response, e.g., VP of Global Support&gt;  will confer with the &lt;assistants for the response, e.g., IT Manager and executive staff&gt;  to determine an appropriate response strategy[^4].
 
 ## Policy
 
@@ -42,20 +42,20 @@ If the {{company_name}} office becomes unavailable due to a disaster, all staff 
 
 Executive staff and senior managers should be notified of any disaster affecting {{company_name}} facilities or operations.
 
-Communications shall take place over any available regular channels including <list your company’s regular communication channels, e.g., Slack, email, phone and online meeting tools>.
+Communications shall take place over any available regular channels including &lt;list your company’s regular communication channels, e.g., Slack, email, phone and online meeting tools&gt; .
 
-Key contacts shall be maintained on the on-call schedule and key contacts: <link to wiki page that lists out key contacts>[^6]
+Key contacts shall be maintained on the on-call schedule and key contacts: &lt;link to wiki page that lists out key contacts&gt; [^6]
 
 ## Roles and Responsibilities[^7]
 
 | Role | Responsibility |
 | :---- | :---- |
-| <IT Manager> | The IT Manager shall lead BC/DR efforts to mitigate losses and recover the corporate network and information systems. |
-| <Departmental Heads> | Each department head shall be responsible for communications with their departmental staff and any actions needed to maintain continuity of their business functions. Departmental heads shall communicate regularly with executive staff and the IT Manager. |
-| <Managers>  | Managers shall be responsible for communicating with their direct reports and providing any needed assistance for staff to continue working from alternative locations. |
-| <VP of Global Support>  | The VP of Global Support, in conjunction with the CEO and CFO shall be responsible for any external and client communications regarding any disaster or business continuity actions that are relevant to customers and third parties. |
-| <VP of Engineering> | The VP of Engineering, in conjunction with the VP of Global Support, shall be responsible for leading efforts to maintain continuity of {{company_name}} services to customers during a disaster. |
-| <Chief HR Officer> | The CHRO shall be responsible for internal communications to employees as well as any action needed to maintain physical health and safety of the workforce. The CHRO shall work with the IT Manager to ensure continuity of physical security at the {{company_name}} office. |
+| &lt;IT Manager&gt;  | The IT Manager shall lead BC/DR efforts to mitigate losses and recover the corporate network and information systems. |
+| &lt;Departmental Heads&gt;  | Each department head shall be responsible for communications with their departmental staff and any actions needed to maintain continuity of their business functions. Departmental heads shall communicate regularly with executive staff and the IT Manager. |
+| &lt;Managers&gt;   | Managers shall be responsible for communicating with their direct reports and providing any needed assistance for staff to continue working from alternative locations. |
+| &lt;VP of Global Support&gt;   | The VP of Global Support, in conjunction with the CEO and CFO shall be responsible for any external and client communications regarding any disaster or business continuity actions that are relevant to customers and third parties. |
+| &lt;VP of Engineering&gt;  | The VP of Engineering, in conjunction with the VP of Global Support, shall be responsible for leading efforts to maintain continuity of {{company_name}} services to customers during a disaster. |
+| &lt;Chief HR Officer&gt;  | The CHRO shall be responsible for internal communications to employees as well as any action needed to maintain physical health and safety of the workforce. The CHRO shall work with the IT Manager to ensure continuity of physical security at the {{company_name}} office. |
 
 ## Continuity of Critical Services
 
@@ -75,11 +75,11 @@ Strategy for maintaining continuity of services can be seen in the following tab
 
 #### Plan Activation
 
-#### This BC/DR shall be automatically activated in the event of the loss or unavailability of the {{company_name}} office, or a natural disaster (i.e., severe weather, regional power outage, earthquake) affecting the larger <describe the location of your company’s headquarters, e.g., San Francisco, CA> region.
+#### This BC/DR shall be automatically activated in the event of the loss or unavailability of the {{company_name}} office, or a natural disaster (i.e., severe weather, regional power outage, earthquake) affecting the larger &lt;describe the location of your company’s headquarters, e.g., San Francisco, CA&gt;  region.
 
 | Version | Date | Description | Author | Approved by |
 | :---: | :---: | :---: | :---: | :---: |
-| <1.0> | <29-Apr-2026> | <First Version> | <OWNER> | <APPROVER> |
+| &lt;1.0&gt;  | &lt;29-Apr-2026&gt;  | &lt;First Version&gt;  | &lt;OWNER&gt;  | &lt;APPROVER&gt;  |
 |  |  |  |  |  |
 
 ## Appendix A – Business Continuity Procedures by Scenario[^10]
@@ -112,7 +112,7 @@ Strategy for maintaining continuity of services can be seen in the following tab
 1. Notify Customer Base that proactive monitoring is offline
 2. Normal operations continue
 
-#### Disaster Event at HQ (<Location 1> & <Location 2>)
+#### Disaster Event at HQ (&lt;Location 1&gt;  & &lt;Location 2&gt; )
 
 * CRM, Telephony, Video Conferencing/Screen Share & Corp Email unaffected
 * SUPPORT offline
@@ -171,7 +171,7 @@ Strategy for maintaining continuity of services can be seen in the following tab
 |  | Personal Mobile Device | Hardware |  |  |  |  |  |  |
 |  | Wireless Access Points (WAP) | Hardware |  | All | IT Ops |  |  |  |
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]:  BC/DR Policies and Plans differ significantly between different organizations. If you have an existing plan that works you should consider keeping it. You can also find other examples and templates. Pick what works best for your organization.
 

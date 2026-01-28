@@ -38,7 +38,7 @@ Reporters should act as a good witness and behave as if they are reporting a cri
 
 ### Severity[^3]
 
-<Team or role responsible for monitoring reports of security incidents or events, e.g., {{company_name}} Support Team> shall monitor incident and event tickets and shall assign a ticket severity based on the following categories.
+&lt;Team or role responsible for monitoring reports of security incidents or events, e.g., {{company_name}} Support Team&gt;  shall monitor incident and event tickets and shall assign a ticket severity based on the following categories.
 
 #### P2/P3 - Low and Medium Severity
 
@@ -56,17 +56,17 @@ Critical issues relate to actively exploited risks and involve a malicious actor
 
 The incident escalation contacts can be found below in Appendix A[^5].
 
-*P0 - Critical Severity:* P0 issues require immediate notification to <describe the role/team that should be immediately notified about P0 issues, e.g., IT and/or Engineering> management.
+*P0 - Critical Severity:* P0 issues require immediate notification to &lt;describe the role/team that should be immediately notified about P0 issues, e.g., IT and/or Engineering&gt;  management.
 
- *P1 - High Severity*: A <type of ticket that should be created in the event of a P1 event or incident, e.g., support> ticket must be created and the appropriate manager (see P0 above) must also be notified via <channel for notifying the appropriate contact, e.g., email or Slack> with a reference to the ticket number.
+ *P1 - High Severity*: A &lt;type of ticket that should be created in the event of a P1 event or incident, e.g., support&gt;  ticket must be created and the appropriate manager (see P0 above) must also be notified via &lt;channel for notifying the appropriate contact, e.g., email or Slack&gt;  with a reference to the ticket number.
 
-*P2/P3 - Medium and Low Severity*: A <type of ticket that should be created in the event of a P2/P3 event or incident, e.g., support> ticket must be created and assigned to the appropriate department for response.
+*P2/P3 - Medium and Low Severity*: A &lt;type of ticket that should be created in the event of a P2/P3 event or incident, e.g., support&gt;  ticket must be created and assigned to the appropriate department for response.
 
 ### Documentation[^6]
 
-All reported security events, incidents, and response activities shall be documented and adequately protected in <describe where this will be documented, e.g., the ServiceDesk or Salesforce ticket system>.
+All reported security events, incidents, and response activities shall be documented and adequately protected in &lt;describe where this will be documented, e.g., the ServiceDesk or Salesforce ticket system&gt; .
 
-A root cause analysis may be performed on all verified <P0> security incidents. A root cause analysis report shall be documented and referenced in the incident ticket. The root cause analysis shall be reviewed by the <reviewer of root cause analysis decider of requirement for a post-mortem, e.g., VP of Support, VP of Engineering, and/or the IT Manager> who shall determine if a post-mortem meeting will be called.
+A root cause analysis may be performed on all verified &lt;P0&gt;  security incidents. A root cause analysis report shall be documented and referenced in the incident ticket. The root cause analysis shall be reviewed by the &lt;reviewer of root cause analysis decider of requirement for a post-mortem, e.g., VP of Support, VP of Engineering, and/or the IT Manager&gt;  who shall determine if a post-mortem meeting will be called.
 
 ## Incident Response Process[^7]
 
@@ -103,11 +103,11 @@ For critical issues, the response team will follow an iterative response process
 
 #### Internal Issues[^9]
 
-Issues where the malicious actor is an internal employee, contractor, vendor, or partner requires sensitive handling. The incident manager shall contact <direct contact for sensitive information, e.g., HR or the CEO> directly and will not discuss with other employees. These are critical issues where follow-up must occur.
+Issues where the malicious actor is an internal employee, contractor, vendor, or partner requires sensitive handling. The incident manager shall contact &lt;direct contact for sensitive information, e.g., HR or the CEO&gt;  directly and will not discuss with other employees. These are critical issues where follow-up must occur.
 
 #### Compromised Communications[^10]
 
-Incident responders must have <communication method, e.g., Slack messaging> arranged before listing themselves as incident members. If there are IT communication risks, an out of band solution will be chosen, and communicated to incident responders via <how changes to communication will be communicated if needed, e.g., cell phone>.
+Incident responders must have &lt;communication method, e.g., Slack messaging&gt;  arranged before listing themselves as incident members. If there are IT communication risks, an out of band solution will be chosen, and communicated to incident responders via &lt;how changes to communication will be communicated if needed, e.g., cell phone&gt; .
 
 #### Root Account Compromise[^11]
 
@@ -120,9 +120,9 @@ If an AWS root account compromise is known or expected, refer to the playbook in
 * Incident response shall be performed according to this plan and any associated procedures.
 * All incidents shall be formally documented, and a documented root cause analysis shall be performed
 * Incident responders shall collect, store, and preserve incident-related evidence in accordance with industry guidance and best practices such as NIST SP 800-86 ‘Guide to Integrating Forensic Techniques into Incident Response’[^12]
-* Suspected and confirmed unauthorized access events shall be reviewed by the Incident Response Team. Breach determinations shall only be made by the <who determines if a breach occurred, e.g., CEO and legal counsel in coordination with executive management>
-* {{company_name}} shall promptly and properly notify customers, partners, users, affected parties, and regulatory agencies of relevant incidents or breaches in accordance with {{company_name}} policies, contractual commitments, and regulatory requirements, as determined by the <CEO, Legal Department>
-* This Incident Response Plan shall be reviewed and formally tested at least <how often the Incident Response Plan will be reviewed, e.g., annually>.  Results of IR plan testing activities including findings and lessons learned will be formally documented and maintained to support security, compliance and audit requirements
+* Suspected and confirmed unauthorized access events shall be reviewed by the Incident Response Team. Breach determinations shall only be made by the &lt;who determines if a breach occurred, e.g., CEO and legal counsel in coordination with executive management&gt;
+* {{company_name}} shall promptly and properly notify customers, partners, users, affected parties, and regulatory agencies of relevant incidents or breaches in accordance with {{company_name}} policies, contractual commitments, and regulatory requirements, as determined by the &lt;CEO, Legal Department&gt;
+* This Incident Response Plan shall be reviewed and formally tested at least &lt;how often the Incident Response Plan will be reviewed, e.g., annually&gt; .  Results of IR plan testing activities including findings and lessons learned will be formally documented and maintained to support security, compliance and audit requirements
 
 ## External Communications and Breach Reporting
 
@@ -146,9 +146,9 @@ Every employee and user of any {{company_name}} information resources has respon
 
 | Role | Responsibility |
 | :---- | :---- |
-| **<Incident Manager>** | The Incident Manager is the primary and ultimate decision maker during the response period. The Incident Manager is ultimately responsible for resolving the incident and formally closing incident response actions. See Appendix A[^14] for Incident Manager contact information. These responsibilities include: Ensuring the right people from all functions are actively involved as appropriate Communicating status updates to the appropriate person or teams at regular intervals Resolving incidents in the immediate term Determining necessary follow-up actions Assigning follow-up activities to the appropriate people Promptly reporting incident details which may trigger breach reporting, in writing to the <person that receives incident details and decides on breach reporting requirement, e.g., Chief Information Officer> |
-| **<Incident Response Team (IRT)>** | The individuals who have been engaged and are actively working on the incident. All members of the IRT will remain engaged in incident response until the incident is formally resolved, or they are formally dismissed by the Incident Manager. |
-| **<Engineers (Support and Development)>** | Qualified engineers will be placed into the on-call rotation and may act as the Incident Manager (if primary resources are not available) or a member of the IRT when engaged to respond to an incident. Engineers are responsible for understanding the technologies and components of the information systems, the security controls in place including logging, monitoring, and alerting tools, appropriate communications channels, incident response protocols, escalation procedures, and documentation requirements. When Engineers are engaged in incident response, they become members of the IRT. |
+| **&lt;Incident Manager&gt; ** | The Incident Manager is the primary and ultimate decision maker during the response period. The Incident Manager is ultimately responsible for resolving the incident and formally closing incident response actions. See Appendix A[^14] for Incident Manager contact information. These responsibilities include: Ensuring the right people from all functions are actively involved as appropriate Communicating status updates to the appropriate person or teams at regular intervals Resolving incidents in the immediate term Determining necessary follow-up actions Assigning follow-up activities to the appropriate people Promptly reporting incident details which may trigger breach reporting, in writing to the &lt;person that receives incident details and decides on breach reporting requirement, e.g., Chief Information Officer&gt;  |
+| **&lt;Incident Response Team (IRT)&gt; ** | The individuals who have been engaged and are actively working on the incident. All members of the IRT will remain engaged in incident response until the incident is formally resolved, or they are formally dismissed by the Incident Manager. |
+| **&lt;Engineers (Support and Development)&gt; ** | Qualified engineers will be placed into the on-call rotation and may act as the Incident Manager (if primary resources are not available) or a member of the IRT when engaged to respond to an incident. Engineers are responsible for understanding the technologies and components of the information systems, the security controls in place including logging, monitoring, and alerting tools, appropriate communications channels, incident response protocols, escalation procedures, and documentation requirements. When Engineers are engaged in incident response, they become members of the IRT. |
 | **Users** | Employees and contractors of {{company_name}}. Users are responsible for following policies, reporting problems, suspected problems, weaknesses, suspicious activity, and security incidents and events.  |
 | **Customers** | Customers are responsible for reporting problems with their use of {{company_name}} services. Customers are responsible for verifying that reported problems are resolved.  |
 | **Legal Counsel** | Responsible, in conjunction with the CEO and executive management, for determining if an incident presents legal or regulatory exposure as well as whether an incident shall be considered a reportable breach. Counsel shall review and approve in writing all external breach notices before they are sent to any external party.  |
@@ -160,17 +160,17 @@ Every employee and user of any {{company_name}} information resources has respon
 
 ## Exceptions
 
-Requests for an exception to this Policy must be submitted to and authorized by the <approver of exceptions to this policy, e.g., IT Manager> for approval. Exceptions shall be documented.
+Requests for an exception to this Policy must be submitted to and authorized by the &lt;approver of exceptions to this policy, e.g., IT Manager&gt;  for approval. Exceptions shall be documented.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the <receivers of policy violation reports, e.g., IT Manager or the CEO>. Violations of this policy may result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to the &lt;receivers of policy violation reports, e.g., IT Manager or the CEO&gt; . Violations of this policy may result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
 
 
 ## Appendix A – Contact Information
 
-Contacts for IT and Engineering Management as well as executive staff and can be found <where contacts for IRT members can be found, e.g., at the bottom of the On-Call list here: <link>>[^15]
+Contacts for IT and Engineering Management as well as executive staff and can be found &lt;where contacts for IRT members can be found, e.g., at the bottom of the On-Call list here: &lt;link&gt; &gt; [^15]
 
 ## Appendix B – Incident Collection Form[^16]
 
@@ -248,11 +248,11 @@ Contacts for IT and Engineering Management as well as executive staff and can be
 
 ### Procedures
 
-In the event that <customer name> identifies a potential breach of PHI occurs, the following procedures shall be followed.
+In the event that &lt;customer name&gt;  identifies a potential breach of PHI occurs, the following procedures shall be followed.
 
 ### Step 1: Identification (Discovery)
 
-A breach of PHI will be deemed “discovered” as of the first day <customer name> knows of the breach or, by exercising reasonable diligence, would or should have known about the breach.
+A breach of PHI will be deemed “discovered” as of the first day &lt;customer name&gt;  knows of the breach or, by exercising reasonable diligence, would or should have known about the breach.
 
 If a potential breach is discovered, it is very time sensitive and must be immediately reported.
 
@@ -334,17 +334,17 @@ When executing the risk assessment, a “reasoned judgment” standard will be a
 
 ### Step 5: Final Determination
 
-<customer name>’s executive management in collaboration with legal counsel shall, after review of the evidence and risk assessment, have final authority to determine whether a breach of PHI occurred and what, if any, further action is warranted.
+&lt;customer name&gt; ’s executive management in collaboration with legal counsel shall, after review of the evidence and risk assessment, have final authority to determine whether a breach of PHI occurred and what, if any, further action is warranted.
 
 ### Step 6: Notification
 
-In the event that <customer name>’s executive management and/or legal counsel determines that notice to the Covered Entity is warranted, <customer name>’s executive management and/or legal counsel or the designated representative shall promptly prepare and transmit a notice to the Covered Entity.
+In the event that &lt;customer name&gt; ’s executive management and/or legal counsel determines that notice to the Covered Entity is warranted, &lt;customer name&gt; ’s executive management and/or legal counsel or the designated representative shall promptly prepare and transmit a notice to the Covered Entity.
 
 1. #### **Timing of Notification**
 
-<customer name> shall notify the Covered Entity “without unreasonable delay” but no later than 60 days after discovery and/or notification of the breach, as required by law.
+&lt;customer name&gt;  shall notify the Covered Entity “without unreasonable delay” but no later than 60 days after discovery and/or notification of the breach, as required by law.
 
-<customer name> Service and Business Associate Agreements provides that <customer name> is an independent contractor; therefore, the Covered Entity’s time to provide the requisite notice begins to run on the date that <customer name> notifies the Covered Entity of the breach.
+&lt;customer name&gt;  Service and Business Associate Agreements provides that &lt;customer name&gt;  is an independent contractor; therefore, the Covered Entity’s time to provide the requisite notice begins to run on the date that &lt;customer name&gt;  notifies the Covered Entity of the breach.
 
 1. #### **Delay of Notification**
 
@@ -358,20 +358,20 @@ A delay in notification is permissible if a law enforcement official states that
 
 1. If a law enforcement request is received, the law enforcement statement must be in writing and must specify the length of the delay required.
 
-1. If the request for a delay in notification is oral, <customer name> must document the statement and request written confirmation within 30 days. If no written request for a delay is received within that time, <customer name> must send notification of the breach to the Covered Entity.
+1. If the request for a delay in notification is oral, &lt;customer name&gt;  must document the statement and request written confirmation within 30 days. If no written request for a delay is received within that time, &lt;customer name&gt;  must send notification of the breach to the Covered Entity.
 
 1. #### **Content of Notification**
 
-Any notification to the Covered Entity (CE) provided by <customer name> shall include all information as required by law, but at a minimum, will contain the following content:
+Any notification to the Covered Entity (CE) provided by &lt;customer name&gt;  shall include all information as required by law, but at a minimum, will contain the following content:
 
 * Identification of each individual whose PHI is believed to have been breached
 * The date of the incident discovery
 * The date of disclosure
 * The facts and circumstances surrounding the disclosure
 * All associated documentation
-* All other available information known to <customer name> that the Covered Entity will be required to include in its own Notice to the individual(s).
+* All other available information known to &lt;customer name&gt;  that the Covered Entity will be required to include in its own Notice to the individual(s).
 
-Any additional information regarding the breach that <customer name> discovers after the initial notice to the Covered Entity be promptly provided to the Covered Entity as required by law.
+Any additional information regarding the breach that &lt;customer name&gt;  discovers after the initial notice to the Covered Entity be promptly provided to the Covered Entity as required by law.
 
 Any notice to the Covered Entity shall be sent via first class mail with a return receipt requested and the return receipt as well as a copy of the Covered Entity Notice shall be kept with related documentation and retained in accordance with established record retention requirements or for a minimum of six years, whichever is greater.
 
@@ -381,13 +381,13 @@ All phases of the process must be documented in detail on a case-specific basis,
 
 ### HIPAA Breach Check List
 
-* Following any actual or suspected breach of unsecured electronic protected health information (ePHI), <customer name> must notify the affected Covered Entity (CE).
+* Following any actual or suspected breach of unsecured electronic protected health information (ePHI), &lt;customer name&gt;  must notify the affected Covered Entity (CE).
 * Notify the Security Officer and/or Privacy Officer and Legal of a suspected ePHI breach, within four (4) hours.
 * Incident Response Team investigates suspected breach and execute risk assessment to verify if ePHI data has been compromised.
 * Incident Response Team shall complete a Breach Notification Report
 * Incident Response Team provides the completed Breach Notification Report to the Security Officer and/or Privacy Officer for review and approval
 * Security and/or Privacy Officer review and approve the submitted Breach Notification Report
-* Security and/or Privacy Officer provide a copy of the final Breach Notification Report to <customer name> Legal department within one (1) business day after approval
+* Security and/or Privacy Officer provide a copy of the final Breach Notification Report to &lt;customer name&gt;  Legal department within one (1) business day after approval
 * Legal reviews Breach Notification Report and submits the report to the Covered Entity through approved communication channels
 * Legal will ensure that notification to the Covered Entity occurs no later than sixty (60) calendar days following the initial discovery of a breach or suspected breach, unless delayed by an appropriate law enforcement agency.
 
@@ -405,7 +405,7 @@ The Breach Notification Report to the Covered Entity (CE) notification must incl
 
 | Information Security: HIPAA / ePHI Breach Notification Report |  |
 | :---- | :---- |
-| **Incident Number:** <\#\#\#-MMYYYY or Ticket \#> |  |
+| **Incident Number:** &lt;\#\#\#-MMYYYY or Ticket \#&gt;  |  |
 | **Other Incidents Related to this Incident:** |  |
 | **Breach Incident Status** | (i.e., New, In progress, Forwarded for investigation, Resolved) |
 | **Incident Summary** | Description of what happened and is known to date |
@@ -501,7 +501,7 @@ Review created items and mutating calls. There are may be items that have been c
 * EC2 instances.
 * [Your application and infrastructure will drive this list.]
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]:  List out the communication channels that should be used if someone observes a security event or incident
 

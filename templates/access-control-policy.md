@@ -53,7 +53,7 @@ Customers must not be able to set or influence external IDs. When the external I
 
 ## User Access Management
 
-{{company_name}} requires that all personnel have a unique user identifier for system access, and that user credentials and passwords are not shared between multiple personnel. Users with multiple levels of access (e.g. administrators) should be given separate accounts for normal system use and for administrative functions wherever feasible. Root, service, and administrator accounts may use a password management system to share passwords for business continuity purposes only. Administrators shall only use shared administrative accounts as needed. If a password is compromised or suspected of compromise the incident should be escalated to <IR Team> immediately and the password must be changed.
+{{company_name}} requires that all personnel have a unique user identifier for system access, and that user credentials and passwords are not shared between multiple personnel. Users with multiple levels of access (e.g. administrators) should be given separate accounts for normal system use and for administrative functions wherever feasible. Root, service, and administrator accounts may use a password management system to share passwords for business continuity purposes only. Administrators shall only use shared administrative accounts as needed. If a password is compromised or suspected of compromise the incident should be escalated to &lt;IR Team&gt;  immediately and the password must be changed.
 
 ### User Registration and Deregistration
 
@@ -108,23 +108,23 @@ Control and management of individual user passwords is the responsibility of all
 
 ## Password Policy[^5]
 
-Where feasible, passwords for confidential systems shall be configured for at least <minimum password requirements>:
+Where feasible, passwords for confidential systems shall be configured for at least &lt;minimum password requirements&gt; :
 
-* <e.g., eight (8) or more characters, one upper case, one number
-* <Systems shall be configured to remember and prohibit reuse of passwords for last <16> passwords used>
-* <Passwords shall be set to lock out after <6> failed attempts>
-* <Passwords shall expire after <90 days>>
-* <Initial passwords must be set to a unique value and changed after first log in>
-* <For manual password resets, a user’s identity must be verified prior to changing passwords>
-* <Do not limit the permitted characters that can be used>
-* <Do not limit the length of the password to anything below 64 characters>
-* <Do not use secret questions (place of birth, etc) as a sole password reset requirement>
-* <Require email verification of a password change request>
-* <Require the current password in addition to the new password during password change>
-* <Verify newly created passwords against common passwords lists or leaked passwords databases>
-* <Check existing user passwords for compromise regularly>
-* <Store passwords in a hashed and salted format using a memory-hard or CPU-hard one-way hash function>
-* <Enforce appropriate account lockout and brute-force protection on account access>
+* &lt;e.g., eight (8) or more characters, one upper case, one number
+* &lt;Systems shall be configured to remember and prohibit reuse of passwords for last &lt;16&gt;  passwords used&gt;
+* &lt;Passwords shall be set to lock out after &lt;6&gt;  failed attempts&gt;
+* &lt;Passwords shall expire after &lt;90 days&gt; &gt;
+* &lt;Initial passwords must be set to a unique value and changed after first log in&gt;
+* &lt;For manual password resets, a user’s identity must be verified prior to changing passwords&gt;
+* &lt;Do not limit the permitted characters that can be used&gt;
+* &lt;Do not limit the length of the password to anything below 64 characters&gt;
+* &lt;Do not use secret questions (place of birth, etc) as a sole password reset requirement&gt;
+* &lt;Require email verification of a password change request&gt;
+* &lt;Require the current password in addition to the new password during password change&gt;
+* &lt;Verify newly created passwords against common passwords lists or leaked passwords databases&gt;
+* &lt;Check existing user passwords for compromise regularly&gt;
+* &lt;Store passwords in a hashed and salted format using a memory-hard or CPU-hard one-way hash function&gt;
+* &lt;Enforce appropriate account lockout and brute-force protection on account access&gt;
 
 ## System and Application Access
 
@@ -195,7 +195,7 @@ Additional access, beyond standard pre-approved access, must be requested and ap
 |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 
-[^1]: All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]: All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]: Reference to another Openlane template policy.
 

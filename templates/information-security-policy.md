@@ -34,9 +34,9 @@ This policy applies to employees, contractors, consultants, temporaries, and oth
 
 ## Security Incident Reporting
 
-All users are required to report known or suspected security events or incidents, including policy violations and observed security weaknesses. Incidents shall be reported immediately or as soon as possible by <how to and where to send incident reports, e.g., sending an email to: help@<Company Domain>.com>.
+All users are required to report known or suspected security events or incidents, including policy violations and observed security weaknesses. Incidents shall be reported immediately or as soon as possible by &lt;how to and where to send incident reports, e.g., sending an email to: help@&lt;Company Domain&gt; .com&gt; .
 
-In your <incident report communication method, e.g., email> please describe the incident or observation along with any relevant details.
+In your &lt;incident report communication method, e.g., email&gt;  please describe the incident or observation along with any relevant details.
 
 ## Whistleblower Anonymous Fraud Reporting
 
@@ -44,7 +44,7 @@ Our Whistleblower Policy is intended to encourage and enable employees and other
 
 It is contrary to our values for anyone to retaliate against any employee or who in good faith reports an ethics violation, or a suspected violation of law, such as a complaint of discrimination, or suspected fraud, or suspected violation of any regulation. An employee who retaliates against someone who has reported a violation in good faith is subject to discipline up to and including termination of employment.
 
-Anonymous reports may be submitted via <anonymous report mechanism (e.g. whistleblower service>.
+Anonymous reports may be submitted via &lt;anonymous report mechanism (e.g. whistleblower service&gt; .
 
 ## Mobile Device Policy
 
@@ -54,9 +54,9 @@ System level and user level passwords must comply with the Access Control Policy
 
 All end-user, personal (BYOD) or company owned devices used to access {{company_name}} information systems (i.e. email) must adhere to the following rules and requirements:
 
-* Devices must be locked with a password (or equivalent control such as biometric) protected screensaver or screen lock after <screensaver lock requirement, e.g., 5 minutes of non-use>
+* Devices must be locked with a password (or equivalent control such as biometric) protected screensaver or screen lock after &lt;screensaver lock requirement, e.g., 5 minutes of non-use&gt;
 * Devices must be locked whenever left unattended
-* Users must report any suspected misuse or theft of a mobile device immediately to <role/team responsible for receiving mobile device theft reports, e.g.,  {{company_name}}’s IT Department>
+* Users must report any suspected misuse or theft of a mobile device immediately to &lt;role/team responsible for receiving mobile device theft reports, e.g.,  {{company_name}}’s IT Department&gt;
 * Confidential information must not be stored on mobile devices or USB drives (this does not apply to business contact information, e.g., names, phone numbers, and email addresses)
 * Any mobile device used to access company resources (such as file shares and email) must not be shared with any other person
 * Upon termination users agree to return all company owned devices and delete all company information and accounts from any personal devices
@@ -84,7 +84,7 @@ Remote working refers to any situation where organizational personnel operate fr
 
 ## Acceptable Use Policy
 
-{{company_name}} proprietary and customer information stored on electronic and computing devices, whether owned or leased by {{company_name}}, the employee or a third party, remains the sole property of {{company_name}} for the purposes of this policy.  Employees and contractors must ensure through legal or technical means that proprietary information is protected in accordance with the Data Management Policy[^4]. The use of <company file sharing system, e.g., Google Drive> for business file storage is required for users of laptops or company issued devices. Storing important documents on the file share is how you “backup” your laptop.
+{{company_name}} proprietary and customer information stored on electronic and computing devices, whether owned or leased by {{company_name}}, the employee or a third party, remains the sole property of {{company_name}} for the purposes of this policy.  Employees and contractors must ensure through legal or technical means that proprietary information is protected in accordance with the Data Management Policy[^4]. The use of &lt;company file sharing system, e.g., Google Drive&gt;  for business file storage is required for users of laptops or company issued devices. Storing important documents on the file share is how you “backup” your laptop.
 
 You have a responsibility to promptly report the theft, loss, or unauthorized disclosure of {{company_name}} proprietary information or equipment. You may access, use or share {{company_name}} proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties. Employees are responsible for exercising good judgment regarding the reasonableness of personal use of company-provided devices.
 
@@ -152,14 +152,14 @@ Personnel are responsible for reading and complying with all policies relevant t
 
 ## Exceptions
 
-Requests for an exception to this policy must be submitted to the <approver of exceptions to this policy, e.g., IT Manager> for approval.
+Requests for an exception to this policy must be submitted to the &lt;approver of exceptions to this policy, e.g., IT Manager&gt;  for approval.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the <person who should receive reports of violations of this policy, e.g., IT Manager>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to the &lt;person who should receive reports of violations of this policy, e.g., IT Manager&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, either describe your company’s password requirements here or say something like “company’s minimum standards.”
 

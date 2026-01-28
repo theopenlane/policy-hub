@@ -139,19 +139,19 @@ Under certain circumstances, {{company_name}} may become subject to legal procee
 
 ## Exceptions
 
-Requests for an exception to this policy must be submitted to the <approver of requests for an exception to this policy, e.g., CFO> for approval.
+Requests for an exception to this policy must be submitted to the &lt;approver of requests for an exception to this policy, e.g., CFO&gt;  for approval.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the <who should receive reports of violations to this policy, e.g., CFO>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to the &lt;who should receive reports of violations to this policy, e.g., CFO&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
 ## APPENDIX A – Internal Retention and Disposal Procedure[^17]
 
-{{company_name}}’s <responsible party, e.g., Engineering Team> is responsible for setting and enforcing the data retention and disposal procedures for {{company_name}} managed accounts and devices.
+{{company_name}}’s &lt;responsible party, e.g., Engineering Team&gt;  is responsible for setting and enforcing the data retention and disposal procedures for {{company_name}} managed accounts and devices.
 
 **Customer Accounts:**
 
-1. Customer accounts and data shall be deleted within <sixty (60)> days of contract termination through manual data deletion processes.
+1. Customer accounts and data shall be deleted within &lt;sixty (60)&gt;  days of contract termination through manual data deletion processes.
 
 **Devices:**
 
@@ -163,7 +163,7 @@ Any known violations of this policy should be reported to the <who should receiv
 
 In cases where a device is damaged in a way that {{company_name}} cannot access the Recovery Partition to erase the drive, {{company_name}} may optionally decide to use an E-Waste service that includes data destruction with a certificate. {{company_name}} will keep certificates of destruction on record for one year. Physical destruction can be optional if it is verified that the device is encrypted with Full Disk Encryption, which would negate the risk of data recovery.
 
-Management will review this procedure at least <frequency of procedure review, e.g., annually>.
+Management will review this procedure at least &lt;frequency of procedure review, e.g., annually&gt; .
 
 ## APPENDIX B – Data Retention Matrix[^18]
 
@@ -188,9 +188,9 @@ Management will review this procedure at least <frequency of procedure review, e
 |  |  |  |
 |  |  |  |
 
-***Master Version:*** <link>
+***Master Version:*** &lt;link&gt;
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]:  Describe your company’s data classification labels here. Customize the labels to meet your company’s needs.
 

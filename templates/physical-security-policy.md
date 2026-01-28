@@ -49,12 +49,12 @@ Suppliers, vendors, and third-parties shall comply with {{company_name}} physica
 
 ## Exceptions
 
-Requests for an exception to this policy must be submitted to the <approver of requests for exceptions to this policy, e.g., CHRO> for approval.
+Requests for an exception to this policy must be submitted to the &lt;approver of requests for exceptions to this policy, e.g., CHRO&gt;  for approval.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the <receiver of reports of violations to this policy, e.g., CHRO>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to the &lt;receiver of reports of violations to this policy, e.g., CHRO&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]:  This sentence references another Openlane policy. If you are not planning on using this policy, describe your company’s third-party vendor management practices here. If your company does not use third-parties, delete this sentence.

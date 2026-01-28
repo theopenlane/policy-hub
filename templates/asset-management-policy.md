@@ -61,14 +61,14 @@ Any physical assets owned by customers shall be promptly returned to the custome
 
 ## Exceptions
 
-Requests for an exception to this policy must be submitted to the <approver of requests for an exception to this policy, e.g., IT Manager> for approval.
+Requests for an exception to this policy must be submitted to the &lt;approver of requests for an exception to this policy, e.g., IT Manager&gt;  for approval.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the <recipient of reports of violations of this policy, e.g., IT Manager>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to the &lt;recipient of reports of violations of this policy, e.g., IT Manager&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, remove this reference. You can describe your company’s rules for the acceptable use of information, assets, and information processing facilities here. Alternately, if applicable, other references you might be able to use are your company’s Acceptable Use Policy or your company’s Employee Handbook
 

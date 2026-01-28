@@ -59,11 +59,11 @@ Employees and third-parties who violate {{company_name}} information security po
 
 ## Exceptions
 
-Requests for an exception to this policy must be submitted to the <role responsible for approving exceptions to this policy, e.g., Chief Human Resource Officer (CHRO)> for approval.
+Requests for an exception to this policy must be submitted to the &lt;role responsible for approving exceptions to this policy, e.g., Chief Human Resource Officer (CHRO)&gt;  for approval.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the <role responsible for receiving notifications of violations to this policy, e.g., CHRO>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company policies up to and including termination of employment.
+Any known violations of this policy should be reported to the &lt;role responsible for receiving notifications of violations to this policy, e.g., CHRO&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company policies up to and including termination of employment.
 
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.

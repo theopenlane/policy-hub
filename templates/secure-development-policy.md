@@ -28,7 +28,7 @@ This policy describes the rules for the acquisition and development of software 
 
 Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures. Change control procedures and requirements are described in the {{company_name}} Operations Security Policy.
 
-Significant code changes must be reviewed and approved by <who can approve code changes, e.g., a developer or manager within the Review Board> before being merged into any production branch in accordance with the <name of process, e.g., Check In Process> found here: <link to process outline in company wiki>
+Significant code changes must be reviewed and approved by &lt;who can approve code changes, e.g., a developer or manager within the Review Board&gt;  before being merged into any production branch in accordance with the &lt;name of process, e.g., Check In Process&gt;  found here: &lt;link to process outline in company wiki&gt;
 
 Change control procedures shall ensure that development, testing and deployment of changes shall not be performed by a single individual without approval and oversight.
 
@@ -73,7 +73,7 @@ Privacy-by-design principles:
 1. Visibility and Transparency – Keep it Open
 1. Respect for User Privacy – Keep it User-Centric
 
-Engineering documentation and technical references can be found in the <name of page with documents, e.g., Development Process Confluence Page> here: <link>
+Engineering documentation and technical references can be found in the &lt;name of page with documents, e.g., Development Process Confluence Page&gt;  here: &lt;link&gt;
 
 Software developers are expected to adhere to {{company_name}}’s coding standards throughout the development cycle, including standards for quality, commenting, and security.
 
@@ -105,7 +105,7 @@ Prior to deploying code, a Release Checklist MUST be completed which includes a 
 
 ## Protection of Test Data
 
-Test data shall be selected carefully, protected and controlled. Confidential customer data shall be protected in accordance with all contracts and commitments. Customer data shall not be used for testing purposes without the explicit permission of the data owner and the <approver of use of customer data as test data, e.g., VP of Engineering>.
+Test data shall be selected carefully, protected and controlled. Confidential customer data shall be protected in accordance with all contracts and commitments. Customer data shall not be used for testing purposes without the explicit permission of the data owner and the &lt;approver of use of customer data as test data, e.g., VP of Engineering&gt; .
 
 ## Acquisition of Third-Party Systems and Software
 
@@ -124,13 +124,13 @@ Software developers shall be provided with secure development training appropria
 
 ## Exceptions
 
-Requests for an exception to this Policy must be submitted to the <approver of exceptions to this policy, e.g., VP of Engineering> for approval.
+Requests for an exception to this Policy must be submitted to the &lt;approver of exceptions to this policy, e.g., VP of Engineering&gt;  for approval.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the <receiver of reported violations to this policy, e.g., VP of Engineering>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to the &lt;receiver of reported violations to this policy, e.g., VP of Engineering&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
 [^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, describe your company’s change control procedures and requirements here.
 
