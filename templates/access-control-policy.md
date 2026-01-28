@@ -193,7 +193,7 @@ Additional access, beyond standard pre-approved access, must be requested and ap
 | Sales | x | x | x | x | x |  |  |  |  |
 | Sales Mgr | x | x | x | x |  |  |  |  |  |
 
----
+__________
 
 <sup>1</ sup>All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 

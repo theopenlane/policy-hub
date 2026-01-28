@@ -274,6 +274,6 @@ In this step, the objective is to keep current, the specific knowledge related t
 | **High impact (4)** | A threat event could be expected to have a severe or catastrophic adverse effect, meaning: severe degradation or loss of mission capability and one or more primary functions cannot be performed; major damage; major financial loss; or range of effects is extensive to most cyber resources and most critical resources. | 4 |
 | **Very high impact (5)** | A threat event could be expected to have multiple severe or catastrophic adverse effects on organizational operations, assets, individuals, other organizations, or the Nation. Range of effects is sweeping, involving almost all cyber resources. | 5 |
 
----
+__________
 
 <sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.

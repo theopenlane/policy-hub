@@ -155,7 +155,7 @@ Requests for an exception to this Policy must be submitted to the &lt;approver o
 
 Any known violations of this policy should be reported to the &lt;person responsible for receiving policy violation reports, e.g., CFO&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
----
+__________
 
 <sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 

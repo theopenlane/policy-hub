@@ -501,7 +501,7 @@ Review created items and mutating calls. There are may be items that have been c
 * EC2 instances.
 * [Your application and infrastructure will drive this list.]
 
----
+__________
 
 <sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
