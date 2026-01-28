@@ -25,7 +25,7 @@ Customer or confidential company data must utilize strong ciphers and configurat
 
 ## Key Management
 
-Access to keys and secrets shall be tightly controlled in accordance with the Access Control Policy[^2].
+Access to keys and secrets shall be tightly controlled in accordance with the Access Control Policy <sup>2</sup>.
 
 The following table includes the recommended usage for cryptographic keys[^3]:
 
