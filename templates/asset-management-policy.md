@@ -2,9 +2,9 @@
 title: Asset Management Policy
 satisfies:
   SOC 2:
-    - CC1.1
-    - CC1.2
-    - CC2.2
+    - CC6.1
+    - CC6.3
+    - CC6.5
 tags:
     - security
 ---

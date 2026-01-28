@@ -14,12 +14,6 @@ tags:
     - security
 ---
 
-## Third-Party Management Policy
-
-**Policy Owner:** {{policy_owner}}
-
-**Effective Date:** {{effective_date}}
-
 ## Purpose
 
 To ensure protection of the organization's data and assets that are shared with, accessible to, or managed by suppliers, including external parties or third-party organizations such as service providers, vendors, and customers, and to maintain an agreed level of information security and service delivery in line with supplier agreements.

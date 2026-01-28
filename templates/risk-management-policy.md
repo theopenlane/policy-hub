@@ -7,7 +7,6 @@ satisfies:
     - CC3.3
     - CC4.1
     - CC4.2
-    - CC5.2
 tags:
     - security
 ---
