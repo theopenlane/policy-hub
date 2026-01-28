@@ -32,11 +32,11 @@ A security incident is a security event which results in loss or damage to the c
 
 If a {{company_name}} employee, contractor, user, or customer becomes aware of an information security event or incident, possible incident, imminent incident, unauthorized access, policy violation, security weakness, or suspicious activity, then they shall immediately report the information using one of the following communication channels:
 
-* Email help@{{company_name}}.com information or reports about the event or incident[\^2]
+* Email help@{{company_name}}.com information or reports about the event or incident[^2]
 
 Reporters should act as a good witness and behave as if they are reporting a crime. Reports should include specific details about what has been observed or discovered.
 
-### Severity[\^3]
+### Severity[^3]
 
 &lt;Team or role responsible for monitoring reports of security incidents or events, e.g., {{company_name}} Support Team&gt;  shall monitor incident and event tickets and shall assign a ticket severity based on the following categories.
 
@@ -52,9 +52,9 @@ High severity issues relate to problems where an adversary or active exploitatio
 
 Critical issues relate to actively exploited risks and involve a malicious actor or threats that put any individual at risk of physical harm. Identification of active exploitation is required to meet this severity category.
 
-### Escalation and Internal Reporting[\^4]
+### Escalation and Internal Reporting[^4]
 
-The incident escalation contacts can be found below in Appendix A[\^5].
+The incident escalation contacts can be found below in Appendix A[^5].
 
 *P0 - Critical Severity:* P0 issues require immediate notification to &lt;describe the role/team that should be immediately notified about P0 issues, e.g., IT and/or Engineering&gt;  management.
 
@@ -62,13 +62,13 @@ The incident escalation contacts can be found below in Appendix A[\^5].
 
 *P2/P3 - Medium and Low Severity*: A &lt;type of ticket that should be created in the event of a P2/P3 event or incident, e.g., support&gt;  ticket must be created and assigned to the appropriate department for response.
 
-### Documentation[\^6]
+### Documentation[^6]
 
 All reported security events, incidents, and response activities shall be documented and adequately protected in &lt;describe where this will be documented, e.g., the ServiceDesk or Salesforce ticket system&gt; .
 
 A root cause analysis may be performed on all verified &lt;P0&gt;  security incidents. A root cause analysis report shall be documented and referenced in the incident ticket. The root cause analysis shall be reviewed by the &lt;reviewer of root cause analysis decider of requirement for a post-mortem, e.g., VP of Support, VP of Engineering, and/or the IT Manager&gt;  who shall determine if a post-mortem meeting will be called.
 
-## Incident Response Process[\^7]
+## Incident Response Process[^7]
 
 For critical issues, the response team will follow an iterative response process designed to investigate, contain exploitation, eradicate the threat, recover system and services, remediate vulnerabilities, and document a post-mortem report including the lessons learned from the incident.
 
@@ -99,17 +99,17 @@ For critical issues, the response team will follow an iterative response process
 * Document Root Cause Analysis (RCA)
 * Additional items as needed
 
-### Special Considerations[\^8]
+### Special Considerations[^8]
 
-#### Internal Issues[\^9]
+#### Internal Issues[^9]
 
 Issues where the malicious actor is an internal employee, contractor, vendor, or partner requires sensitive handling. The incident manager shall contact &lt;direct contact for sensitive information, e.g., HR or the CEO&gt;  directly and will not discuss with other employees. These are critical issues where follow-up must occur.
 
-#### Compromised Communications[\^10]
+#### Compromised Communications[^10]
 
 Incident responders must have &lt;communication method, e.g., Slack messaging&gt;  arranged before listing themselves as incident members. If there are IT communication risks, an out of band solution will be chosen, and communicated to incident responders via &lt;how changes to communication will be communicated if needed, e.g., cell phone&gt; .
 
-#### Root Account Compromise[\^11]
+#### Root Account Compromise[^11]
 
 If an AWS root account compromise is known or expected, refer to the playbook in Appendix D.
 
@@ -119,7 +119,7 @@ If an AWS root account compromise is known or expected, refer to the playbook in
 * Suspected incidents shall be assessed and classified as either an event or an incident
 * Incident response shall be performed according to this plan and any associated procedures.
 * All incidents shall be formally documented, and a documented root cause analysis shall be performed
-* Incident responders shall collect, store, and preserve incident-related evidence in accordance with industry guidance and best practices such as NIST SP 800-86 ‘Guide to Integrating Forensic Techniques into Incident Response’[\^12]
+* Incident responders shall collect, store, and preserve incident-related evidence in accordance with industry guidance and best practices such as NIST SP 800-86 ‘Guide to Integrating Forensic Techniques into Incident Response’[^12]
 * Suspected and confirmed unauthorized access events shall be reviewed by the Incident Response Team. Breach determinations shall only be made by the &lt;who determines if a breach occurred, e.g., CEO and legal counsel in coordination with executive management&gt;
 * {{company_name}} shall promptly and properly notify customers, partners, users, affected parties, and regulatory agencies of relevant incidents or breaches in accordance with {{company_name}} policies, contractual commitments, and regulatory requirements, as determined by the &lt;CEO, Legal Department&gt;
 * This Incident Response Plan shall be reviewed and formally tested at least &lt;how often the Incident Response Plan will be reviewed, e.g., annually&gt; .  Results of IR plan testing activities including findings and lessons learned will be formally documented and maintained to support security, compliance and audit requirements
@@ -142,11 +142,11 @@ As needed and determined by legal and executive staff, the company shall coopera
 
 Every employee and user of any {{company_name}} information resources has responsibilities toward the protection of the information assets. The table below establishes the specific responsibilities of the incident responder roles.
 
-### Response Team Members[\^13]
+### Response Team Members[^13]
 
 | Role | Responsibility |
 | :---- | :---- |
-| **&lt;Incident Manager&gt; ** | The Incident Manager is the primary and ultimate decision maker during the response period. The Incident Manager is ultimately responsible for resolving the incident and formally closing incident response actions. See Appendix A[\^14] for Incident Manager contact information. These responsibilities include: Ensuring the right people from all functions are actively involved as appropriate Communicating status updates to the appropriate person or teams at regular intervals Resolving incidents in the immediate term Determining necessary follow-up actions Assigning follow-up activities to the appropriate people Promptly reporting incident details which may trigger breach reporting, in writing to the &lt;person that receives incident details and decides on breach reporting requirement, e.g., Chief Information Officer&gt;  |
+| **&lt;Incident Manager&gt; ** | The Incident Manager is the primary and ultimate decision maker during the response period. The Incident Manager is ultimately responsible for resolving the incident and formally closing incident response actions. See Appendix A[^14] for Incident Manager contact information. These responsibilities include: Ensuring the right people from all functions are actively involved as appropriate Communicating status updates to the appropriate person or teams at regular intervals Resolving incidents in the immediate term Determining necessary follow-up actions Assigning follow-up activities to the appropriate people Promptly reporting incident details which may trigger breach reporting, in writing to the &lt;person that receives incident details and decides on breach reporting requirement, e.g., Chief Information Officer&gt;  |
 | **&lt;Incident Response Team (IRT)&gt; ** | The individuals who have been engaged and are actively working on the incident. All members of the IRT will remain engaged in incident response until the incident is formally resolved, or they are formally dismissed by the Incident Manager. |
 | **&lt;Engineers (Support and Development)&gt; ** | Qualified engineers will be placed into the on-call rotation and may act as the Incident Manager (if primary resources are not available) or a member of the IRT when engaged to respond to an incident. Engineers are responsible for understanding the technologies and components of the information systems, the security controls in place including logging, monitoring, and alerting tools, appropriate communications channels, incident response protocols, escalation procedures, and documentation requirements. When Engineers are engaged in incident response, they become members of the IRT. |
 | **Users** | Employees and contractors of {{company_name}}. Users are responsible for following policies, reporting problems, suspected problems, weaknesses, suspicious activity, and security incidents and events.  |
@@ -170,9 +170,9 @@ Any known violations of this policy should be reported to the &lt;receivers of p
 
 ## Appendix A – Contact Information
 
-Contacts for IT and Engineering Management as well as executive staff and can be found &lt;where contacts for IRT members can be found, e.g., at the bottom of the On-Call list here: &lt;link&gt; &gt; [\^15]
+Contacts for IT and Engineering Management as well as executive staff and can be found &lt;where contacts for IRT members can be found, e.g., at the bottom of the On-Call list here: &lt;link&gt; &gt; [^15]
 
-## Appendix B – Incident Collection Form[\^16]
+## Appendix B – Incident Collection Form[^16]
 
 | General Information |  |  |  |  |
 | ----- | :---- | :---- | :---- | :---- |
@@ -244,7 +244,7 @@ Contacts for IT and Engineering Management as well as executive staff and can be
 |  |  |  |  |  |
 |  |  |  |  |  |
 
-## Appendix C – HIPAA Breach Procedures for Protected Health Information (PHI)[\^17]
+## Appendix C – HIPAA Breach Procedures for Protected Health Information (PHI)[^17]
 
 ### Procedures
 
@@ -444,7 +444,7 @@ The Breach Notification Report to the Covered Entity (CE) notification must incl
 |  | Next Steps to be Taken (e.g., Rebuild the host, upgrade an application, implement additional controls, etc.). |
 |  | Recommendations for Affected Individuals: |
 
-## Appendix D – AWS Root Account Compromise Playbook[\^18]
+## Appendix D – AWS Root Account Compromise Playbook[^18]
 
 ### Incident Response Runbook – Root Usage
 
@@ -501,38 +501,38 @@ Review created items and mutating calls. There are may be items that have been c
 * EC2 instances.
 * [Your application and infrastructure will drive this list.]
 
-[\^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[\^2]:  List out the communication channels that should be used if someone observes a security event or incident
+[^2]:  List out the communication channels that should be used if someone observes a security event or incident
 
-[\^3]:  In this section, describe your company’s security incident or event severity labels. Your company might used other labels like “P1”—if that’s the case, reflect that here and below.
+[^3]:  In this section, describe your company’s security incident or event severity labels. Your company might used other labels like “P1”—if that’s the case, reflect that here and below.
 
-[\^4]:  In this section, describe your company’s process for reporting and escalating security events or incidents
+[^4]:  In this section, describe your company’s process for reporting and escalating security events or incidents
 
-[\^5]:  This is a reference to an Appendix in this document. If you are not using this appendix to describe incident escalation response contacts, remove this reference.
+[^5]:  This is a reference to an Appendix in this document. If you are not using this appendix to describe incident escalation response contacts, remove this reference.
 
-[\^6]:  In this section, describe your company’s documentation process for security events and incidents
+[^6]:  In this section, describe your company’s documentation process for security events and incidents
 
-[\^7]:  In this section, describe your company’s incident response process for security events and incidents.
+[^7]:  In this section, describe your company’s incident response process for security events and incidents.
 
-[\^8]:  In this section, describe special considerations for your company’s incident responses
+[^8]:  In this section, describe special considerations for your company’s incident responses
 
-[\^9]:  Describe your company’s process for handing issues with internal actors
+[^9]:  Describe your company’s process for handing issues with internal actors
 
-[\^10]:  Describe your company’s process for handing issues with member of your company’s incident response team
+[^10]:  Describe your company’s process for handing issues with member of your company’s incident response team
 
-[\^11]:  AWS Root Account Compromise. Delete if not applicable.
+[^11]:  AWS Root Account Compromise. Delete if not applicable.
 
-[\^12]:  Describe your company’s process for handing issues with member of your company’s incident response team
+[^12]:  Describe your company’s process for handing issues with member of your company’s incident response team
 
-[\^13]:  Use this table to describe your company’s incident response team members roles and responsibilities
+[^13]:  Use this table to describe your company’s incident response team members roles and responsibilities
 
-[\^14]:  This is a reference to an appendix in this document. If you are not planning on using this appendix, list the Incident Manager’s contact information here. It is recommended that you use the appendix to avoid needing to frequently update the policy itself.
+[^14]:  This is a reference to an appendix in this document. If you are not planning on using this appendix, list the Incident Manager’s contact information here. It is recommended that you use the appendix to avoid needing to frequently update the policy itself.
 
-[\^15]:  Add external on-call list or delete Appendix
+[^15]:  Add external on-call list or delete Appendix
 
-[\^16]:  This form can be used to collect information about a security incident. If your process does not include this form, remove this appendix.
+[^16]:  This form can be used to collect information about a security incident. If your process does not include this form, remove this appendix.
 
-[\^17]:  Tailor for your environment. This addendum addresses HIPAA requirements. If your organization is not subject to HIPAA you can delete this Appendix.
+[^17]:  Tailor for your environment. This addendum addresses HIPAA requirements. If your organization is not subject to HIPAA you can delete this Appendix.
 
-[\^18]:  AWS Root compromise playbook delete if not relevant
+[^18]:  AWS Root compromise playbook delete if not relevant

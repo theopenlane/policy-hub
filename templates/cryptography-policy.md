@@ -25,9 +25,9 @@ Customer or confidential company data must utilize strong ciphers and configurat
 
 ## Key Management
 
-Access to keys and secrets shall be tightly controlled in accordance with the Access Control Policy[\^2].
+Access to keys and secrets shall be tightly controlled in accordance with the Access Control Policy[^2].
 
-The following table includes the recommended usage for cryptographic keys[\^3]:
+The following table includes the recommended usage for cryptographic keys[^3]:
 
 | Domain | Key Type | Algorithm | Key Length | Max Expiration |
 | :---- | :---- | :---- | :---- | :---- |
@@ -48,8 +48,8 @@ A documented exception is required prior to moving, copying, or storing customer
 Any known violations of this policy should be reported to the &lt;recipient of reports of violations of this policy, e.g., IT Manager&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
 
-[\^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[\^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, either describe your company’s access control policies and procedures here or replace this with a phrase like, “based on need to know” or “in accordance with the principle of least privilege.”
+[^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, either describe your company’s access control policies and procedures here or replace this with a phrase like, “based on need to know” or “in accordance with the principle of least privilege.”
 
-[\^3]:  Customize this table to describe your company’s cryptography practices and minimum requirements
+[^3]:  Customize this table to describe your company’s cryptography practices and minimum requirements

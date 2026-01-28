@@ -27,7 +27,7 @@ This policy is applicable to all {{company_name}} infrastructure, network segmen
 
 The audience for this policy includes all {{company_name}} employees and contractors who are involved with the Information Security Program. Awareness of this policy applies for all other agents of {{company_name}} with access to {{company_name}} information and infrastructure. This includes, but is not limited to partners, affiliates, contractors, temporary employees, trainees, guests, and volunteers. The titles will be referred collectively hereafter as “{{company_name}} community”.
 
-## Roles and Responsibilities[\^2]
+## Roles and Responsibilities[^2]
 
 | Roles | Responsibilities |
 | :---- | :---- |
@@ -46,6 +46,6 @@ The audience for this policy includes all {{company_name}} employees and contrac
 
 The &lt;role responsible for measuring compliance, e.g., IT Manager&gt;  will measure the compliance to this policy through various methods, including, but not limited to—reports, internal/external audits, and feedback to the policy owner. Exceptions to the policy must be approved by the &lt;approver of exceptions to this policy, e.g., IT Manager&gt;  in advance. Non-compliance will be addressed with management and Human Resources and can result in disciplinary action in accordance with company procedures up to and including termination of employment.
 
-[\^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[\^2]:  Customize for your organization. Roles and responsibilities can be assigned however it makes sense for your company.
+[^2]:  Customize for your organization. Roles and responsibilities can be assigned however it makes sense for your company.
