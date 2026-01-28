@@ -6,7 +6,6 @@ satisfies:
     - CC6.1
     - CC6.2
     - CC6.3
-    - CC6.4
     - CC7.2
 tags:
     - security
