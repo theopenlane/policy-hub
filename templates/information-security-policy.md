@@ -34,7 +34,7 @@ This policy applies to employees, contractors, consultants, temporaries, and oth
 
 ## Security Incident Reporting
 
-All users are required to report known or suspected security events or incidents, including policy violations and observed security weaknesses. Incidents shall be reported immediately or as soon as possible by &lt;how to and where to send incident reports, e.g., sending an email to: help@&lt;Company Domain&gt; .com&gt; .
+All users are required to report known or suspected security events or incidents, including policy violations and observed security weaknesses. Incidents shall be reported immediately or as soon as possible by &lt;how to and where to send incident reports, e.g., sending an email to: help@&lt;Company Domain&gt;.com&gt;.
 
 In your &lt;incident report communication method, e.g., email&gt;  please describe the incident or observation along with any relevant details.
 
@@ -44,7 +44,7 @@ Our Whistleblower Policy is intended to encourage and enable employees and other
 
 It is contrary to our values for anyone to retaliate against any employee or who in good faith reports an ethics violation, or a suspected violation of law, such as a complaint of discrimination, or suspected fraud, or suspected violation of any regulation. An employee who retaliates against someone who has reported a violation in good faith is subject to discipline up to and including termination of employment.
 
-Anonymous reports may be submitted via &lt;anonymous report mechanism (e.g. whistleblower service&gt; .
+Anonymous reports may be submitted via &lt;anonymous report mechanism (e.g. whistleblower service&gt;).
 
 ## Mobile Device Policy
 
@@ -158,7 +158,7 @@ Requests for an exception to this policy must be submitted to the &lt;approver o
 
 Any known violations of this policy should be reported to the &lt;person who should receive reports of violations of this policy, e.g., IT Manager&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-__________
+<hr />
 
 <sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 

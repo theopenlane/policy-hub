@@ -46,7 +46,7 @@ The audience for this policy includes all {{company_name}} employees and contrac
 
 The &lt;role responsible for measuring compliance, e.g., IT Manager&gt;  will measure the compliance to this policy through various methods, including, but not limited to—reports, internal/external audits, and feedback to the policy owner. Exceptions to the policy must be approved by the &lt;approver of exceptions to this policy, e.g., IT Manager&gt;  in advance. Non-compliance will be addressed with management and Human Resources and can result in disciplinary action in accordance with company procedures up to and including termination of employment.
 
-__________
+<hr />
 
 <sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 

@@ -166,7 +166,7 @@ This BC/DR shall be automatically activated in the event of the loss or unavaila
 | 11 | Personal Mobile Device | Hardware |  |  |  |  |  |  |
 | 12 | Wireless Access Points (WAP) | Hardware |  | All | IT Ops |  |  |  |
 
-__________
+<hr />
 
 <sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 

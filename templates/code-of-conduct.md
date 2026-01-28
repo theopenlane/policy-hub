@@ -105,6 +105,6 @@ Employees who violate this policy may face disciplinary consequences in proporti
 
 It is the [party responsible for the code of conduct]'s responsibility to ensure this policy is followed.
 
-__________
+<hr />
 
 <sup>1</ sup> All fields in this document marked by square brackets [ </ sup> and highlighted must be filled in.
