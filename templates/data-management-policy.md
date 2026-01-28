@@ -113,7 +113,7 @@ No special protection or handling controls are required for public data. Public 
 
 Personally identifiable information (PII) shall be deleted or de-identified as soon as it no longer has a business use[^11].
 
-Retention periods shall be documented in the Data Retention Matrix in Appendix B ^12 to this policy.
+Retention periods shall be documented in the Data Retention Matrix in Appendix B <sup>12</sup> to this policy.
 
 ## Data & Device Disposal
 
