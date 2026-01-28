@@ -107,4 +107,4 @@ It is the [party responsible for the code of conduct]'s responsibility to ensure
 
 <hr />
 
-<sup>1</ sup> All fields in this document marked by square brackets [ </ sup> and highlighted must be filled in.
+<sup>1</sup> All fields in this document marked by square brackets [ </sup> and highlighted must be filled in.

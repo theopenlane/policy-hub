@@ -24,7 +24,7 @@ All {{company_name}} applications and information systems that are business crit
 
 This policy describes the rules for the acquisition and development of software and systems that shall be applied to developments within the {{company_name}} organization.
 
-## System Change Control Procedures<sup>2</ sup>
+## System Change Control Procedures <sup>2</sup>
 
 Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures. Change control procedures and requirements are described in the {{company_name}} Operations Security Policy.
 
@@ -32,7 +32,7 @@ Significant code changes must be reviewed and approved by &lt;who can approve co
 
 Change control procedures shall ensure that development, testing and deployment of changes shall not be performed by a single individual without approval and oversight.
 
-## Software Version Control<sup>3</ sup>
+## Software Version Control <sup>3</sup>
 
 All {{company_name}} software is version controlled and synced between contributors (developers). Access to the central repository is restricted based on an employee’s role. All code is written, tested, and saved in a local repository before being synced to the origin repository.
 
@@ -77,7 +77,7 @@ Engineering documentation and technical references can be found in the &lt;name 
 
 Software developers are expected to adhere to {{company_name}}’s coding standards throughout the development cycle, including standards for quality, commenting, and security.
 
-## Secure Development Environment<sup>4</ sup>
+## Secure Development Environment <sup>4</sup>
 
 {{company_name}} shall establish and appropriately protect environments for system development and integration efforts that cover the entire system development life cycle. The following environments shall be logically or physically segregated:
 
@@ -85,7 +85,7 @@ Software developers are expected to adhere to {{company_name}}’s coding standa
 * Test / Staging
 * Development
 
-## Outsourced Development<sup>5</ sup>
+## Outsourced Development <sup>5</sup>
 
 {{company_name}} shall supervise and monitor the activity of outsourced system development. Outsourced development shall adhere to all {{company_name}} standards and policies.
 
@@ -97,7 +97,7 @@ Testing of security functionality shall be performed at defined periods during t
 
 Application code should be scanned prior to deployment. Patches to address application vulnerabilities that materially impact security should be deployed within 90 days of discovery.
 
-## System Acceptance Testing<sup>6</ sup>
+## System Acceptance Testing <sup>6</sup>
 
 Acceptance testing programs and related criteria shall be established for new information systems, upgrades and new versions.
 
@@ -109,7 +109,7 @@ Test data shall be selected carefully, protected and controlled. Confidential cu
 
 ## Acquisition of Third-Party Systems and Software
 
-The acquisition of third-party systems and software shall be done in accordance with the requirements of the {{company_name}} Third-Party Management Policy<sup>7</ sup>.
+The acquisition of third-party systems and software shall be done in accordance with the requirements of the {{company_name}} Third-Party Management Policy <sup>7</sup>.
 
 ## Developer Training
 
@@ -132,16 +132,16 @@ Any known violations of this policy should be reported to the &lt;receiver of re
 
 <hr />
 
-<sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+<sup>1</sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-<sup>2</ sup> This is a reference to another Openlane policy. If you are not planning on using this policy, describe your company’s change control procedures and requirements here.
+<sup>2</sup> This is a reference to another Openlane policy. If you are not planning on using this policy, describe your company’s change control procedures and requirements here.
 
-<sup>3</ sup> Describe your company’s version control use here
+<sup>3</sup> Describe your company’s version control use here
 
-<sup>4</ sup> Tailor this section to describe your company’s development environment and SDLC
+<sup>4</sup> Tailor this section to describe your company’s development environment and SDLC
 
-<sup>5</ sup> This section references outsourced development. If you company does not use outsourced development, remove this section.
+<sup>5</sup> This section references outsourced development. If you company does not use outsourced development, remove this section.
 
-<sup>6</ sup> Describe your company’s acceptance testing process here
+<sup>6</sup> Describe your company’s acceptance testing process here
 
-<sup>7</ sup> This is a reference to another Openlane policy. If you are not planning on using this policy, describe your company’s third-party systems and software acquisition processes
+<sup>7</sup> This is a reference to another Openlane policy. If you are not planning on using this policy, describe your company’s third-party systems and software acquisition processes

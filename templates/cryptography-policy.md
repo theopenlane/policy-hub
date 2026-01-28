@@ -25,9 +25,9 @@ Customer or confidential company data must utilize strong ciphers and configurat
 
 ## Key Management
 
-Access to keys and secrets shall be tightly controlled in accordance with the Access Control Policy <sup>2</sup>.
+Access to keys and secrets shall be tightly controlled in accordance with the Access Control Policy  <sup>2</sup>.
 
-The following table includes the recommended usage for cryptographic keys<sup>3</ sup>:
+The following table includes the recommended usage for cryptographic keys <sup>3</sup>:
 
 | Domain | Key Type | Algorithm | Key Length | Max Expiration |
 | :---- | :---- | :---- | :---- | :---- |
@@ -49,8 +49,8 @@ Any known violations of this policy should be reported to the &lt;recipient of r
 
 <hr />
 
-<sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+<sup>1</sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-<sup>2</ sup> This is a reference to another Openlane policy. If you are not planning on using this policy, either describe your company’s access control policies and procedures here or replace this with a phrase like, “based on need to know” or “in accordance with the principle of least privilege.”
+<sup>2</sup> This is a reference to another Openlane policy. If you are not planning on using this policy, either describe your company’s access control policies and procedures here or replace this with a phrase like, “based on need to know” or “in accordance with the principle of least privilege.”
 
-<sup>3</ sup> Customize this table to describe your company’s cryptography practices and minimum requirements
+<sup>3</sup> Customize this table to describe your company’s cryptography practices and minimum requirements
