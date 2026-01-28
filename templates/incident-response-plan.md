@@ -173,76 +173,75 @@ Any known violations of this policy should be reported to the &lt;receivers of p
 Contacts for IT and Engineering Management as well as executive staff and can be found &lt;where contacts for IRT members can be found, e.g., at the bottom of the On-Call list here: &lt;link&gt; &gt;  <sup>15</sup>
 
 ## Appendix B – Incident Collection Form <sup>16</sup>
+## Appendix B – Incident Collection Form <sup>16</sup>
 
-| General Information |  |  |  |  |
-| ----- | :---- | :---- | :---- | :---- |
-| **Incident Detector’s Information** |  |  |  |  |
-| **Name:** |  |  | **Date and Time Detected:**  |  |
-| **Title:** |  |  |  |  |
-| **Phone:** |  |  | **Location Incident Detected From:**  |  |
-| **E-mail:** |  |  |  |  |
-|  |  |  | **Additional Information:** |  |
-|  |  |  |  |  |
+### General Information
 
-| Incident Summary |  |  |  |  |
-| ----- | :---- | :---- | :---- | :---- |
-| **Type of Incident Detected:** |  |  |  |  |
-| Denial of Service  | Unauthorized Use | Espionage | Probe | Hoax |
-| Malicious Code | Unauthorized Access | Other: |  |  |
-|  |  |  |  |  |
-| **Incident Location:** |  |  |  |  |
-| **Site:** |  |  |  |  |
-| **Site Point of Contact:** |  |  |  |  |
-| **Phone:** |  |  |  |  |
-| **Email:** |  |  |  |  |
-|  |  |  |  |  |
-| **How was the Incident Detected**: |  |  |  |  |
-|  |  |  |  |  |
-| **Additional Information:** |  |  |  |  |
-|  |  |  |  |  |
+| Field                                 | Value                |
+|----------------------------------------|----------------------|
+| Incident Detector’s Name               |                      |
+| Incident Detector’s Title              |                      |
+| Incident Detector’s Phone              |                      |
+| Incident Detector’s E-mail             |                      |
+| Date and Time Detected                 |                      |
+| Location Incident Detected From        |                      |
+| Additional Information                 |                      |
 
-| Location(s) of affected systems: |  |  |  |  |
-| :---- | :---- | ----- | ----- | :---- |
-|  |  |  |  |  |
-| **Date and time incident handlers arrived at site:** |  |  |  |  |
-|  |  |  |  |  |
-| **Describe affected information system(s) (one form per system is recommended):** |  |  |  |  |
-| **Hardware Manufacturer:** |  |  |  |  |
-| **Serial Number:**  |  |  |  |  |
-| **Corporate Property Number (if applicable):** |  |  |  |  |
-|  |  |  |  |  |
-| **Is the affected system connected to a network?** |  | Yes | No |  |
-|  |  |  |  |  |
-| **Describe the physical security of the location of affected information systems (locks, security alarms, building access, etc.):** |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| **Isolate affected systems:**  |  |  |  |  |
-| **Approval to  removal from network?**  |  | Yes | No |  |
-| **If YES, Name of Approver:** |  |  |  |  |
-| Date and Time Removed: |  |  |  |  |
-| If NO, state the reason:  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| **Backup of Affected System(s):** |  |  |  |  |
-| **Last System backup successful?**  |  | Yes | No |  |
-| **Name of persons who did backup:** |  |  |  |  |
-|  |  |  |  |  |
-| **Date and time last backups started:** |  |  |  |  |
-| **Date and time last backups completed:** |  |  |  |  |
-| **Backup Storage Location:**  |  |  |  |  |
-|  |  |  |  |  |
-| **Incident Eradication:** |  |  |  |  |
-| **Name of persons performing forensics:** |  |  |  |  |
-| **Was the vulnerability (root cause) identified:**  |  | Yes | No |  |
-| **Describe:** |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| **How was eradication validated:** |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+### Incident Summary
+
+| Field                                 | Value                |
+|----------------------------------------|----------------------|
+| Type of Incident Detected              |                      |
+| Incident Location                      |                      |
+| Site                                   |                      |
+| Site Point of Contact                  |                      |
+| Site Point of Contact Phone            |                      |
+| Site Point of Contact Email            |                      |
+| How was the Incident Detected          |                      |
+| Additional Information                 |                      |
+
+### Affected Systems
+
+| Field                                 | Value                |
+|----------------------------------------|----------------------|
+| Location(s) of affected systems        |                      |
+| Date and time handlers arrived         |                      |
+| Describe affected information system(s)|                      |
+| Hardware Manufacturer                  |                      |
+| Serial Number                          |                      |
+| Corporate Property Number              |                      |
+| Is the affected system connected to a network? | Yes / No      |
+| Describe physical security of location |                      |
+
+### Isolation & Removal
+
+| Field                                 | Value                |
+|----------------------------------------|----------------------|
+| Were affected systems isolated?        |                      |
+| Approval to remove from network?       | Yes / No             |
+| If YES, Name of Approver               |                      |
+| Date and Time Removed                  |                      |
+| If NO, state the reason                |                      |
+
+### Backup
+
+| Field                                 | Value                |
+|----------------------------------------|----------------------|
+| Last system backup successful?         | Yes / No             |
+| Name of persons who did backup         |                      |
+| Date and time last backup started      |                      |
+| Date and time last backup completed    |                      |
+| Backup Storage Location                |                      |
+
+### Incident Eradication
+
+| Field                                 | Value                |
+|----------------------------------------|----------------------|
+| Name of persons performing forensics   |                      |
+| Was the vulnerability (root cause) identified? | Yes / No      |
+| Describe                               |                      |
+| How was eradication validated          |                      |
+
 
 ## Appendix C – HIPAA Breach Procedures for Protected Health Information (PHI) <sup>17</sup>
 

@@ -50,7 +50,7 @@ Principles for engineering secure systems shall be established, documented, main
 
 At a minimum, the following secure-by-design and privacy-by-design principles shall be applied:
 
-Secure-by-design principles:
+### Secure-by-design principles:
 
 1. Minimize attack surface area
 1. Establish secure defaults
@@ -63,7 +63,7 @@ Secure-by-design principles:
 1. Keep security simple
 1. Fix security issues correctly
 
-Privacy-by-design principles:
+### Privacy-by-design principles:
 
 1. Proactive not Reactive; Preventative not Remedial
 1. Privacy as the Default Setting
@@ -73,7 +73,7 @@ Privacy-by-design principles:
 1. Visibility and Transparency – Keep it Open
 1. Respect for User Privacy – Keep it User-Centric
 
-Engineering documentation and technical references can be found in the &lt;name of page with documents, e.g., Development Process Confluence Page&gt;  here: &lt;link&gt;
+Engineering documentation and technical references can be found in the &lt;name of page with documents, e.g., Development Process Confluence Page&gt; here: &lt;link&gt;
 
 Software developers are expected to adhere to {{company_name}}’s coding standards throughout the development cycle, including standards for quality, commenting, and security.
 
