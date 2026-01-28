@@ -17,12 +17,12 @@ The purpose of this business continuity plan is to prepare {{company_name}} in t
 
 All {{company_name}} IT systems that are business critical. This policy applies to all employees of {{company_name}} and to all relevant external parties, including but not limited to {{company_name}} consultants and contractors.
 
-The following scenarios are excluded from the BC/DR plan scope[^3]:
+The following scenarios are excluded from the BC/DR plan scope<sup>3</ sup>:
 
 * Loss of availability for a production hosting service provider (i.e., &lt;production hosting service provider, e.g., AWS&gt; )
 * Loss of availability of {{company_name}} satellite offices (these will be considered incidents)
 
-In the event of a loss of availability of a hosting service provider, the &lt;driver of the response, e.g., VP of Global Support&gt;  will confer with the &lt;assistants for the response, e.g., IT Manager and executive staff&gt;  to determine an appropriate response strategy[^4].
+In the event of a loss of availability of a hosting service provider, the &lt;driver of the response, e.g., VP of Global Support&gt;  will confer with the &lt;assistants for the response, e.g., IT Manager and executive staff&gt;  to determine an appropriate response strategy<sup>4</ sup>.
 
 ## Policy
 
@@ -32,7 +32,7 @@ A disaster recovery test, including a test of backup restoration processes, shal
 
 Continuity of information security shall be considered along with operational continuity.
 
-In the case of an information security event or incident, refer to the Incident Response Plan[^5].
+In the case of an information security event or incident, refer to the Incident Response Plan<sup>5</ sup>.
 
 ## Alternate Work Facilities
 
@@ -44,9 +44,9 @@ Executive staff and senior managers should be notified of any disaster affecting
 
 Communications shall take place over any available regular channels including &lt;list your company’s regular communication channels, e.g., Slack, email, phone and online meeting tools&gt; .
 
-Key contacts shall be maintained on the on-call schedule and key contacts: &lt;link to wiki page that lists out key contacts&gt; [^6]
+Key contacts shall be maintained on the on-call schedule and key contacts: &lt;link to wiki page that lists out key contacts&gt; <sup>6</ sup>
 
-## Roles and Responsibilities[^7]
+## Roles and Responsibilities<sup>7</ sup>
 
 | Role | Responsibility |
 | :---- | :---- |
@@ -59,11 +59,11 @@ Key contacts shall be maintained on the on-call schedule and key contacts: &lt;l
 
 ## Continuity of Critical Services
 
-Procedures for maintaining continuity of critical services in a disaster can be found in Appendix A[^8].
+Procedures for maintaining continuity of critical services in a disaster can be found in Appendix A<sup>8</ sup>.
 
 Recovery Time Objectives (RTO) and Recovery Point Objects (RPO) can be found in Appendix B.
 
-Strategy for maintaining continuity of services can be seen in the following table[^9]:
+Strategy for maintaining continuity of services can be seen in the following table<sup>9</ sup>:
 
 | KEY BUSINESS PROCESS | CONTINUITY STRATEGY |
 | :---- | :---- |
@@ -77,7 +77,7 @@ Strategy for maintaining continuity of services can be seen in the following tab
 
 This BC/DR shall be automatically activated in the event of the loss or unavailability of the {{company_name}} office, or a natural disaster (i.e., severe weather, regional power outage, earthquake) affecting the larger &lt;describe the location of your company’s headquarters, e.g., San Francisco, CA&gt; region.
 
-## Appendix A – Business Continuity Procedures by Scenario[^10]
+## Appendix A – Business Continuity Procedures by Scenario<sup>10</ sup>
 
 ### Business Continuity Scenarios
 
@@ -149,7 +149,7 @@ This BC/DR shall be automatically activated in the event of the loss or unavaila
 
 4. Support Staff utilize alternate service as needed
 
-## Appendix B – RTOs/RPOs[^11]
+## Appendix B – RTOs/RPOs<sup>11</ sup>
 
 | Rank | Asset | Affected Assets | Business Impact | Users | Owners | Recovery Time Objective (RTO) | Recovery Point Objective (RPO) | Comments / Gaps |
 | :---: | ----- | ----- | ----- | ----- | ----- | :---: | :---: | ----- |
@@ -166,24 +166,26 @@ This BC/DR shall be automatically activated in the event of the loss or unavaila
 | 11 | Personal Mobile Device | Hardware |  |  |  |  |  |  |
 | 12 | Wireless Access Points (WAP) | Hardware |  | All | IT Ops |  |  |  |
 
-[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+---
 
-[^2]:  BC/DR Policies and Plans differ significantly between different organizations. If you have an existing plan that works you should consider keeping it. You can also find other examples and templates. Pick what works best for your organization.
+<sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^3]:  Exclusions to this policy should be customized to your organization. Your company may not have any exclusions in which case you can remove this language. These scenarios are provided as an example.
+<sup>2</ sup> BC/DR Policies and Plans differ significantly between different organizations. If you have an existing plan that works you should consider keeping it. You can also find other examples and templates. Pick what works best for your organization.
 
-[^4]:  Change or remove this language based on your organization’s needs.
+<sup>3</ sup> Exclusions to this policy should be customized to your organization. Your company may not have any exclusions in which case you can remove this language. These scenarios are provided as an example.
 
-[^5]:  This is a reference to another Openlane document. If you are not planning on using this document, describe how your company will respond to an information security event or incident here. It is, however, highly recommended that your organization has an Incident Response Plan because a managed approach to incident response is a requirement for all information security management standards.
+<sup>4</ sup> Change or remove this language based on your organization’s needs.
 
-[^6]:  If your company does not use a wiki or some form of an internal knowledge base that can be linked here, you can list out the key contacts in this document. If you list out the contacts here, however, you will need to continually update this document and your employees may have to re-accept this policy if there are major changes.
+<sup>5</ sup> This is a reference to another Openlane document. If you are not planning on using this document, describe how your company will respond to an information security event or incident here. It is, however, highly recommended that your organization has an Incident Response Plan because a managed approach to incident response is a requirement for all information security management standards.
 
-[^7]:  Adjust this table of roles and responsibilities to describe the roles and responsibilities for members of the BC/DR team
+<sup>6</ sup> If your company does not use a wiki or some form of an internal knowledge base that can be linked here, you can list out the key contacts in this document. If you list out the contacts here, however, you will need to continually update this document and your employees may have to re-accept this policy if there are major changes.
 
-[^8]:  This references an appendix in this document. If you describe these procedures elsewhere, update this reference.
+<sup>7</ sup> Adjust this table of roles and responsibilities to describe the roles and responsibilities for members of the BC/DR team
 
-[^9]:  Adjust the table below the describe your company’s continuity strategies
+<sup>8</ sup> This references an appendix in this document. If you describe these procedures elsewhere, update this reference.
 
-[^10]:  In this appendix, describe your company’s business continuity procedures. The scenarios listed in this table are examples of what you might consider including.
+<sup>9</ sup> Adjust the table below the describe your company’s continuity strategies
 
-[^11]:  Customize for your business
+<sup>10</ sup> In this appendix, describe your company’s business continuity procedures. The scenarios listed in this table are examples of what you might consider including.
+
+<sup>11</ sup> Customize for your business

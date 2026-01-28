@@ -27,13 +27,13 @@ All {{company_name}} data, information and information systems.
 
 Information systems and applications shall be classified according to the highest classification of data that they store or process.
 
-## Data Classification[^2]
+## Data Classification<sup>2</ sup>
 
 To help {{company_name}} and its employees easily understand requirements associated with different kinds of information, the company has created three classes of data.
 
 ### Confidential
 
-Highly sensitive data requiring the highest levels of protection; access is restricted to specific employees or departments, and these records can only be passed to others with approval from the data owner, or a company executive. Example include[^3]:
+Highly sensitive data requiring the highest levels of protection; access is restricted to specific employees or departments, and these records can only be passed to others with approval from the data owner, or a company executive. Example include<sup>3</ sup>:
 
 * Customer Data
 * Personally identifiable information (PII)
@@ -50,7 +50,7 @@ Highly sensitive data requiring the highest levels of protection; access is rest
 
 ### Restricted
 
-{{company_name}} proprietary information requiring thorough protection; access is restricted to employees with a “need-to-know” based on business requirements. This data can only be distributed outside the company with approval. This is default for all company information unless stated otherwise. Examples include[^4]:
+{{company_name}} proprietary information requiring thorough protection; access is restricted to employees with a “need-to-know” based on business requirements. This data can only be distributed outside the company with approval. This is default for all company information unless stated otherwise. Examples include<sup>4</ sup>:
 
 * Internal policies
 * Legal documents
@@ -62,7 +62,7 @@ Highly sensitive data requiring the highest levels of protection; access is rest
 
 ### Public
 
-Documents intended for public consumption which can be freely distributed outside {{company_name}}. Examples include[^5]:
+Documents intended for public consumption which can be freely distributed outside {{company_name}}. Examples include<sup>5</ sup>:
 
 * Marketing materials
 * Product descriptions
@@ -73,11 +73,11 @@ Documents intended for public consumption which can be freely distributed outsid
 
 Confidential data should be labeled “confidential” whenever paper copies are produced for distribution.
 
-## Data Handling[^6]
+## Data Handling<sup>6</ sup>
 
 ### Confidential Data Handling
 
-Confidential data is subject to the following protection and handling requirements[^7]:
+Confidential data is subject to the following protection and handling requirements<sup>7</ sup>:
 
 * Access for non pre-approved roles requires documented approval from the data owner
 * Access is restricted to specific employees, roles and/or departments
@@ -89,18 +89,18 @@ Confidential data is subject to the following protection and handling requiremen
 * Backups shall be encrypted
 * Confidential data shall not be stored on personal phones or devices or removable media including USB drives, CD’s, or DVD’s
 * Paper records shall be labeled “confidential” and securely stored and disposed of in a secure, approved manner in accordance with data handling and destruction policies and procedures
-* Hard copy paper records shall only be created based on a business need and shall be avoided whenever possible[^8]
+* Hard copy paper records shall only be created based on a business need and shall be avoided whenever possible<sup>8</ sup>
 * Hard drives and mobile devices used to store confidential information must be securely wiped prior to disposal or physically destroyed
 * Transfer of confidential data to people or entities outside the company shall only be done in accordance with a legal contract or arrangement, and the explicit written permission of management or the data owner
 
 ### Restricted Data Handling
 
-Restricted data is subject to the following protection and handling requirements[^9]:
+Restricted data is subject to the following protection and handling requirements<sup>9</ sup>:
 
 * Access is restricted to users with a need-to-know based on business requirements
 * Restricted systems shall not allow unauthenticated or anonymous access
 * Transfer of restricted data to people or entities outside the company or authorized users shall require management approval and shall only be done in accordance with a legal contract or arrangement, or the permission of the data owner
-* Paper records shall be securely stored and disposed of in a secure, approved manner in accordance with data handling and destruction policies and procedures[^10]
+* Paper records shall be securely stored and disposed of in a secure, approved manner in accordance with data handling and destruction policies and procedures<sup>10</ sup>
 * Hard drives and mobile devices used to store restricted information must be securely wiped prior to disposal or physically destroyed
 
 ### Public Data Handling
@@ -111,19 +111,19 @@ No special protection or handling controls are required for public data. Public 
 
 {{company_name}} shall retain data as long as the company has a need for its use, or to meet regulatory or contractual requirements. Once data is no longer needed, it shall be securely disposed of or archived. Data owners, in consultation with legal counsel, may determine retention periods for their data.
 
-Personally identifiable information (PII) shall be deleted or de-identified as soon as it no longer has a business use[^11].
+Personally identifiable information (PII) shall be deleted or de-identified as soon as it no longer has a business use<sup>11</ sup>.
 
 Retention periods shall be documented in the Data Retention Matrix in Appendix B <sup>12</sup> to this policy.
 
 ## Data & Device Disposal
 
-Data classified as restricted or confidential shall be securely deleted when no longer needed. {{company_name}} shall assess the data and disposal practices of third-party vendors in accordance with the Third-Party Management Policy. Only third-parties who meet {{company_name}} requirements for secure data disposal shall be used for storage and processing of restricted or confidential data[^13].
+Data classified as restricted or confidential shall be securely deleted when no longer needed. {{company_name}} shall assess the data and disposal practices of third-party vendors in accordance with the Third-Party Management Policy. Only third-parties who meet {{company_name}} requirements for secure data disposal shall be used for storage and processing of restricted or confidential data<sup>13</ sup>.
 
 {{company_name}} shall ensure that all restricted and confidential data is securely deleted from company devices prior to, or at the time of, disposal.
 
-Confidential and Restricted hard copy materials shall be shredded or otherwise disposed of using a secure method[^14][^15].
+Confidential and Restricted hard copy materials shall be shredded or otherwise disposed of using a secure method<sup>14</ sup><sup>15</ sup>.
 
-Personally identifiable information (PII)[^16] shall be collected, used and retained only for as long as the company has a legitimate business purpose. PII shall be securely deleted and disposed of following contract termination in accordance with company policy, contractual commitments and all relevant laws and regulations. PII shall also be deleted in response to a verified request from a consumer or data subject, where the company does not have a legitimate business interest or other legal obligation to retain the data.
+Personally identifiable information (PII)<sup>16</ sup> shall be collected, used and retained only for as long as the company has a legitimate business purpose. PII shall be securely deleted and disposed of following contract termination in accordance with company policy, contractual commitments and all relevant laws and regulations. PII shall also be deleted in response to a verified request from a consumer or data subject, where the company does not have a legitimate business interest or other legal obligation to retain the data.
 
 ## Annual Data Review
 
@@ -145,7 +145,7 @@ Requests for an exception to this policy must be submitted to the &lt;approver o
 
 Any known violations of this policy should be reported to the &lt;who should receive reports of violations to this policy, e.g., CFO&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-## APPENDIX A – Internal Retention and Disposal Procedure[^17]
+## APPENDIX A – Internal Retention and Disposal Procedure<sup>17</ sup>
 
 {{company_name}}’s &lt;responsible party, e.g., Engineering Team&gt;  is responsible for setting and enforcing the data retention and disposal procedures for {{company_name}} managed accounts and devices.
 
@@ -165,7 +165,7 @@ In cases where a device is damaged in a way that {{company_name}} cannot access 
 
 Management will review this procedure at least &lt;frequency of procedure review, e.g., annually&gt; .
 
-## APPENDIX B – Data Retention Matrix[^18]
+## APPENDIX B – Data Retention Matrix<sup>18</ sup>
 
 | System or Application | Data Description | Retention Period |
 | :---- | :---- | :---- |
@@ -178,7 +178,7 @@ Management will review this procedure at least &lt;frequency of procedure review
 | {{company_name}} Customer Sales (Salesforce) | Opportunity and Sales Data | Indefinite |
 | {{company_name}} QA and Testing Data (TestRail) | QA, testing scenarios and results data | Indefinite |
 | Security Policies | Security Policies | 1 year after archive |
-| Temporary Files[^19] | AWS /tmp ephemeral storage | automatically when process finishes |
+| Temporary Files<sup>19</ sup> | AWS /tmp ephemeral storage | automatically when process finishes |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -190,28 +190,30 @@ Management will review this procedure at least &lt;frequency of procedure review
 
 ***Master Version:*** &lt;link&gt;
 
-[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+---
 
-[^2]:  Describe your company’s data classification labels here. Customize the labels to meet your company’s needs.
+<sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^3]:  Update this list of examples to fit your organization
+<sup>2</ sup> Describe your company’s data classification labels here. Customize the labels to meet your company’s needs.
 
-[^4]:  Update this list of examples to fit your organization
+<sup>3</ sup> Update this list of examples to fit your organization
 
-[^5]:  Update this list of examples to fit your organization
+<sup>4</ sup> Update this list of examples to fit your organization
 
-[^6]:  Update the data classification labels in this section to describe the systems that your company uses
+<sup>5</ sup> Update this list of examples to fit your organization
 
-[^7]:  Update this list of confidential data handling requirements to fit your organization
+<sup>6</ sup> Update the data classification labels in this section to describe the systems that your company uses
 
-[^9]:  Update this list of restricted data handling requirements to fit your organization
+<sup>7</ sup> Update this list of confidential data handling requirements to fit your organization
 
-[^12]:  This is a reference to an appendix in this document. If this is documented elsewhere, include a reference or a link to the document.
+<sup>9</ sup> Update this list of restricted data handling requirements to fit your organization
 
-[^13]:  If your company does not use third-parties to process sensitive data, you can delete these sentences.
+<sup>12</ sup> This is a reference to an appendix in this document. If this is documented elsewhere, include a reference or a link to the document.
 
-[^14]:  This is a reference to another Openlane policy. If you are not planning on using the Third-Party Management Policy, describe your data disposal practices of third-party vendors here.
+<sup>13</ sup> If your company does not use third-parties to process sensitive data, you can delete these sentences.
 
-[^17]:  In this appendix, describe your company’s internal data retention and disposal procedures. The content here is provided as an example.
+<sup>14</ sup> This is a reference to another Openlane policy. If you are not planning on using the Third-Party Management Policy, describe your data disposal practices of third-party vendors here.
 
-[^18]:  You can remove this table from the document as long as you include a link or a reference to your data retention matrix. It is recommended that you structure your matrix like this table.
+<sup>17</ sup> In this appendix, describe your company’s internal data retention and disposal procedures. The content here is provided as an example.
+
+<sup>18</ sup> You can remove this table from the document as long as you include a link or a reference to your data retention matrix. It is recommended that you structure your matrix like this table.

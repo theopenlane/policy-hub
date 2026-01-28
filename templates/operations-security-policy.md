@@ -95,15 +95,15 @@ Usage Rules and Guidelines:
 
 * User shall conform to all company rules in accordance with the Code of Conduct and the Acceptable Use Policy found in the Information Security Policy.
 
-### Separation of Development, Staging and Production Environments[^2]
+### Separation of Development, Staging and Production Environments<sup>2</ sup>
 
 Development and staging environments shall be strictly segregated from production SaaS environments to reduce the risks of unauthorized access or changes to the operational environment. Confidential production customer data must not be used in development or test environments without the express approval of the &lt;approver of the use of customer data, e.g., VP of Customer Support&gt; .
 
-Refer to the Data Management Policy[^3] for a description of Confidential data. If production customer data is approved for use in the course of development or testing, it shall be scrubbed of any such sensitive information whenever feasible.
+Refer to the Data Management Policy<sup>3</ sup> for a description of Confidential data. If production customer data is approved for use in the course of development or testing, it shall be scrubbed of any such sensitive information whenever feasible.
 
 ## Systems and Network Configuration, Hardening, and Review
 
-Systems and networks shall be provisioned and maintained in accordance with the configuration and hardening standards described in Appendix A[^4] to this policy.
+Systems and networks shall be provisioned and maintained in accordance with the configuration and hardening standards described in Appendix A<sup>4</ sup> to this policy.
 
 Firewalls and/or appropriate network access controls and configurations shall be used to control network traffic to and from the production environment in accordance with this policy.
 
@@ -121,7 +121,7 @@ It is a violation of company policy to disable or alter the configuration of ant
 
 ## Information Backup
 
-The need for backups of systems, databases, information and data shall be considered and appropriate backup processes shall be designed, planned and implemented. Backup procedures must include procedures for maintaining and recovering customer data in accordance with documented SLAs[^5]. Security measures to protect backups shall be designed and applied in accordance with the confidentiality or sensitivity of the data. Backup copies of information, software and system images shall be taken regularly to protect against loss of data. Backups and restore capabilities shall be periodically tested, not less than annually.
+The need for backups of systems, databases, information and data shall be considered and appropriate backup processes shall be designed, planned and implemented. Backup procedures must include procedures for maintaining and recovering customer data in accordance with documented SLAs<sup>5</ sup>. Security measures to protect backups shall be designed and applied in accordance with the confidentiality or sensitivity of the data. Backup copies of information, software and system images shall be taken regularly to protect against loss of data. Backups and restore capabilities shall be periodically tested, not less than annually.
 
 Backups must be stored separately (&lt;describe specific requirements for separate region or availability zone&gt; ) from the production data location.
 
@@ -160,7 +160,7 @@ In the event the company needs to restore production data containing PII from ba
 
 The clocks of all relevant information processing systems within an organization or security domain shall be synchronized to network time servers using reputable time sources.
 
-### File Integrity Monitoring and Intrusion Detection[^6]
+### File Integrity Monitoring and Intrusion Detection<sup>6</ sup>
 
 {{company_name}} production systems shall be configured to monitor, log, and self-repair and/or alert on suspicious changes to critical system files where feasible.
 
@@ -184,7 +184,7 @@ Dissemination: Ensure effective communication of threat intelligence to pertinen
 
 Feedback: Cultivate continuous improvement by leveraging feedback for policy enhancements. Integrate feedback into policy amendments and conduct regular policy reviews.
 
-## Technical Vulnerability Management[^7]
+## Technical Vulnerability Management<sup>7</ sup>
 
 Information about technical vulnerabilities of information systems being used shall be obtained in a timely fashion, the organization's exposure to such vulnerabilities shall be evaluated, and appropriate measures taken to address the associated risk. A variety of methods shall be used to obtain information about technical vulnerabilities, including &lt;vulnerability scanning, penetration tests, review of external vendor alerts, and the bug bounty program&gt; .
 
@@ -194,7 +194,7 @@ Penetration tests of the applications and production network shall be performed 
 
 The &lt;IT and Engineering&gt;  departments shall evaluate the severity of vulnerabilities identified from any source, and if it is determined to be a risk-relevant critical or high-risk vulnerability, a service ticket will be created. The {{company_name}} assessed severity level may differ from the level automatically generated by scanning software or determined by external researchers based on {{company_name}}’s internal knowledge and understanding of technical architecture and real-world impact/exploitability. Tickets are assigned to the system, application, or platform owners for further investigation and/or remediation.
 
-Vulnerabilities assessed by {{company_name}} shall be patched or remediated in the following timeframes[^8]:
+Vulnerabilities assessed by {{company_name}} shall be patched or remediated in the following timeframes<sup>8</ sup>:
 
 | Determined Severity | Remediation Time |
 | ----- | ----- |
@@ -208,7 +208,7 @@ Service tickets for any vulnerability which cannot be remediated within the stan
 
 ## Restrictions on Software Installation
 
-Rules governing the installation of software by users shall be established and implemented in accordance with the {{company_name}} Information Security Policy[^9].
+Rules governing the installation of software by users shall be established and implemented in accordance with the {{company_name}} Information Security Policy<sup>9</ sup>.
 
 ## Information Systems Audit Considerations
 
@@ -216,7 +216,7 @@ Audit requirements and activities involving verification of operational systems 
 
 ## Systems Security Assessment & Requirements
 
-Risks shall be considered prior to the acquisition of, or significant changes to, systems, technologies, or facilities. Where requirements are formally identified, any relevant security requirements shall be included. The acquisition of new suppliers and services shall be made in accordance with the Third-Party Management Policy[^10].
+Risks shall be considered prior to the acquisition of, or significant changes to, systems, technologies, or facilities. Where requirements are formally identified, any relevant security requirements shall be included. The acquisition of new suppliers and services shall be made in accordance with the Third-Party Management Policy<sup>10</ sup>.
 
 The company shall perform an annual network security assessment that includes a review of major changes to the environment such as new system components and network topology.
 
@@ -258,19 +258,19 @@ Any known violations of this policy should be reported to the &lt;person who sho
 
 &lt;Configuration and hardening standards shall be maintained on the internal documentation portal.&gt;
 
-&lt;link&gt; [^11]
+&lt;link&gt; <sup>11</ sup>
 
 &lt;Include links to external sources, or internally created samples:&gt;
 
-&lt;[https://aws.amazon.com/compliance/resources/](https://aws.amazon.com/compliance/resources/)&gt;
+&lt;[https://aws.amazon.com/compliance/resources/</ sup>(https://aws.amazon.com/compliance/resources/)&gt;
 
 &lt;Address baseline config management and deployment per control 3.4, 7.1&gt;
 
-**&lt;Servers and Virtual Machines&gt; [^12]**
+**&lt;Servers and Virtual Machines&gt; <sup>12</ sup>**
 
 &lt;This is the standard for system-level server and virtual server (VM) configuration hardening. Some customization to these settings may be required  to configure the system for its specific target environment, such as setting the proper names, groups, authentication settings, and other personalization options.&gt;
 
-&lt;INSERT OS/SYSTEM BASELINE&gt; [^13]
+&lt;INSERT OS/SYSTEM BASELINE&gt; <sup>13</ sup>
 
 &lt;In addition to the requirements to secure systems to the baseline outlined above, all physical and virtual systems must adhere to the following technical requirements:&gt;
 
@@ -301,7 +301,7 @@ Any known violations of this policy should be reported to the &lt;person who sho
 
 * &lt;Remote-access technologies for vendors and business partners used to access production systems must be enabled only when needed for business purposes and immediately deactivated after use.&gt;
 
-* &lt;Any hybrid networks with both cloud and on-premise access shall be scanned and tested at least annually to ensure that security requirements are maintained.[^14]&gt;
+* &lt;Any hybrid networks with both cloud and on-premise access shall be scanned and tested at least annually to ensure that security requirements are maintained.<sup>14</ sup>&gt;
 
 * &lt;OTHER COMPANY SPECIFIC REQUIREMENTS&gt;
 
@@ -381,30 +381,32 @@ NACLs and Traffic Control
 
 * Establish stringent rules governing traffic in accordance with a define business justification
 
-[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+---
 
-[^2]:  Describe your company’s policy for segregation of environments. If you use different categorizations of data (i.e., don’t use “confidential”), then make sure to update those references here.
+<sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^3]:  This is a reference to another Openlane policy. If you are not using this policy, describe how “confidential” data is here.
+<sup>2</ sup> Describe your company’s policy for segregation of environments. If you use different categorizations of data (i.e., don’t use “confidential”), then make sure to update those references here.
 
-[^4]:  This is a reference to an appendix included in this document. If you are not using the appendix, remove this reference. Either describe your configuration and hardening standards here or reference another document.
+<sup>3</ sup> This is a reference to another Openlane policy. If you are not using this policy, describe how “confidential” data is here.
 
-[^5]:  Documented backup procedures should be referenced, added in the Appendix or this policy language should be tailored.
+<sup>4</ sup> This is a reference to an appendix included in this document. If you are not using the appendix, remove this reference. Either describe your configuration and hardening standards here or reference another document.
 
-[^6]:  Remove these paragraphs if your company does not have a file integrity monitoring and intrusion detection-related control.
+<sup>5</ sup> Documented backup procedures should be referenced, added in the Appendix or this policy language should be tailored.
 
-[^7]:  Tailor this language to your environment
+<sup>6</ sup> Remove these paragraphs if your company does not have a file integrity monitoring and intrusion detection-related control.
 
-[^8]:  Update this table to describe your company’s vulnerability remediation commitments. Some organizations may set different policies based on system or network type. For example, external-facing systems are required to be patched more quickly than internal systems. If a policy like this exists within your organization, detail it here.
+<sup>7</ sup> Tailor this language to your environment
 
-[^9]:  This is a reference to another Openlane policy. If you are not using that policy, describe your company’s policy for the installation of software by users here.
+<sup>8</ sup> Update this table to describe your company’s vulnerability remediation commitments. Some organizations may set different policies based on system or network type. For example, external-facing systems are required to be patched more quickly than internal systems. If a policy like this exists within your organization, detail it here.
 
-[^10]:  Reference to another Openlane Policy. Tailor as needed.
+<sup>9</ sup> This is a reference to another Openlane policy. If you are not using that policy, describe your company’s policy for the installation of software by users here.
 
-[^11]:  Include a link to your company’s wiki page about your company’s configuration and hardening standards. If you do not have a wiki, describe the standards here.
+<sup>10</ sup> Reference to another Openlane Policy. Tailor as needed.
 
-[^12]:  Template for hardening. Modify as needed.
+<sup>11</ sup> Include a link to your company’s wiki page about your company’s configuration and hardening standards. If you do not have a wiki, describe the standards here.
 
-[^13]:  Delete if N/A
+<sup>12</ sup> Template for hardening. Modify as needed.
 
-[^14]:  ISO 27017
+<sup>13</ sup> Delete if N/A
+
+<sup>14</ sup> ISO 27017

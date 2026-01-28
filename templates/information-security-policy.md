@@ -50,7 +50,7 @@ Anonymous reports may be submitted via &lt;anonymous report mechanism (e.g. whis
 
 All end-user devices (e.g., mobile phones, tablets, laptops, desktops) must comply with this policy. Employees must use extreme caution when opening email attachments received from unknown senders, which may contain malware.
 
-System level and user level passwords must comply with the Access Control Policy[^2]. Providing access to another individual, either deliberately or through failure to secure a device  is prohibited.
+System level and user level passwords must comply with the Access Control Policy<sup>2</ sup>. Providing access to another individual, either deliberately or through failure to secure a device  is prohibited.
 
 All end-user, personal (BYOD) or company owned devices used to access {{company_name}} information systems (i.e. email) must adhere to the following rules and requirements:
 
@@ -65,7 +65,7 @@ All end-user, personal (BYOD) or company owned devices used to access {{company_
 
 Users shall not leave confidential materials unsecured on their desk or workspace, and will ensure that screens are locked when not in use.
 
-## Remote Working and Access Policy[^3]
+## Remote Working and Access Policy<sup>3</ sup>
 
 Remote working refers to any situation where organizational personnel operate from locations outside the office. This includes teleworking, telecommuting, flexible workplace, virtual work environments, and remote maintenance. Laptops and other computer resources that are used to access the {{company_name}} network must conform to the security requirements outlined in {{company_name}}’s Information Security Policies and adhere to the following standards:
 
@@ -84,7 +84,7 @@ Remote working refers to any situation where organizational personnel operate fr
 
 ## Acceptable Use Policy
 
-{{company_name}} proprietary and customer information stored on electronic and computing devices, whether owned or leased by {{company_name}}, the employee or a third party, remains the sole property of {{company_name}} for the purposes of this policy.  Employees and contractors must ensure through legal or technical means that proprietary information is protected in accordance with the Data Management Policy[^4]. The use of &lt;company file sharing system, e.g., Google Drive&gt;  for business file storage is required for users of laptops or company issued devices. Storing important documents on the file share is how you “backup” your laptop.
+{{company_name}} proprietary and customer information stored on electronic and computing devices, whether owned or leased by {{company_name}}, the employee or a third party, remains the sole property of {{company_name}} for the purposes of this policy.  Employees and contractors must ensure through legal or technical means that proprietary information is protected in accordance with the Data Management Policy<sup>4</ sup>. The use of &lt;company file sharing system, e.g., Google Drive&gt;  for business file storage is required for users of laptops or company issued devices. Storing important documents on the file share is how you “backup” your laptop.
 
 You have a responsibility to promptly report the theft, loss, or unauthorized disclosure of {{company_name}} proprietary information or equipment. You may access, use or share {{company_name}} proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties. Employees are responsible for exercising good judgment regarding the reasonableness of personal use of company-provided devices.
 
@@ -127,7 +127,7 @@ The following activities are strictly prohibited, with no exceptions:
 1. Creating or forwarding "chain letters", "Ponzi", or other "pyramid" schemes of any type
 1. Use of unsolicited email originating from within {{company_name}} networks or other service providers on behalf of, or to advertise, any service hosted by {{company_name}} or connected via {{company_name}}’s network
 
-**Additional Policies and Procedures Incorporated by Reference[^5]**
+**Additional Policies and Procedures Incorporated by Reference<sup>5</ sup>**
 
 Personnel are responsible for reading and complying with all policies relevant to their roles and responsibilities.
 
@@ -158,13 +158,14 @@ Requests for an exception to this policy must be submitted to the &lt;approver o
 
 Any known violations of this policy should be reported to the &lt;person who should receive reports of violations of this policy, e.g., IT Manager&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
+---
 
-[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+<sup>1</ sup> All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, either describe your company’s password requirements here or say something like “company’s minimum standards.”
+<sup>2</ sup> This is a reference to another Openlane policy. If you are not planning on using this policy, either describe your company’s password requirements here or say something like “company’s minimum standards.”
 
-[^3]:  Tailor to your environment. Remove references to VPN if not used.
+<sup>3</ sup> Tailor to your environment. Remove references to VPN if not used.
 
-[^4]:  This is a reference to another Openlane policy. If you are not using this policy, either describe your company’s policy for protecting proprietary information here or remove “in accordance with the Data Management Policy” in its entirety.
+<sup>4</ sup> This is a reference to another Openlane policy. If you are not using this policy, either describe your company’s policy for protecting proprietary information here or remove “in accordance with the Data Management Policy” in its entirety.
 
-[^5]:  This table references several Openlane policies. If a policy is not in use, remove it from the table. If there are other applicable policies, describe them here.
+<sup>5</ sup> This table references several Openlane policies. If a policy is not in use, remove it from the table. If there are other applicable policies, describe them here.

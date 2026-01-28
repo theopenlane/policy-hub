@@ -18,7 +18,7 @@ To limit access to information and information processing systems, networks, and
 
 ## Scope
 
-All {{company_name}} information systems that process, store, or transmit confidential data as defined in the {{company_name}} Data Management Policy[^2]. This policy applies to all employees of {{company_name}} and to all external parties with access to {{company_name}} networks and system resources.
+All {{company_name}} information systems that process, store, or transmit confidential data as defined in the {{company_name}} Data Management Policy<sup>2</ sup>. This policy applies to all employees of {{company_name}} and to all external parties with access to {{company_name}} networks and system resources.
 
 ## Policy
 
@@ -32,7 +32,7 @@ Access to information computing resources is limited to personnel with a busines
 
 {{company_name}}’s primary method of assigning and maintaining consistent access controls and access rights shall be through the implementation of Role-Based Access Control (RBAC). Wherever feasible, rights and restrictions shall be allocated to groups. Individual user accounts may be granted additional permissions as needed with approval from the system owner or authorized party.
 
- All privileged access to production infrastructure shall use Multi-Factor Authentication (MFA)[^3].
+ All privileged access to production infrastructure shall use Multi-Factor Authentication (MFA)<sup>3</ sup>.
 
 ### Access to Networks and Network Services
 
@@ -43,7 +43,7 @@ The following security standards shall govern access to {{company_name}} network
 * {{company_name}} guests may be granted access to guest networks after registering with office staff without a documented request
 * Remote connections to production systems and networks must be encrypted
 
-## Customer Access Management[^4]
+## Customer Access Management<sup>4</ sup>
 
 When configuring cross-account access using AWS IAM roles, you must use a value you generate for the external ID, instead of one provided by the customer, to ensure the integrity of the cross account role configuration. A partner-generated external ID ensures that malicious parties cannot impersonate a customer's configuration and enforces uniqueness and format consistency across all customers.
 
@@ -106,7 +106,7 @@ Conflicting duties and areas of responsibility shall be segregated to reduce opp
 
 Control and management of individual user passwords is the responsibility of all {{company_name}} personnel and third-party users. Users shall protect secret authentication information in accordance with the Information Security Policy.
 
-## Password Policy[^5]
+## Password Policy<sup>5</ sup>
 
 Where feasible, passwords for confidential systems shall be configured for at least &lt;minimum password requirements&gt; :
 
@@ -175,7 +175,7 @@ Requests for an exception to this Policy must be submitted to the IT Manager for
 
 Any known violations of this policy should be reported to the IT Manager. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-## APPENDIX A – Access Management Procedure[^6]
+## APPENDIX A – Access Management Procedure<sup>6</ sup>
 
 At the completion of the onboarding process, HR will send an email that will generate a series of service tickets for access.
 
@@ -183,7 +183,7 @@ IT will provision access for all company-wide systems as well as engineering sys
 
 Additional access, beyond standard pre-approved access, must be requested and approved by a manager or system owner.
 
-## APPENDIX B – Access Matrix[^7]
+## APPENDIX B – Access Matrix<sup>7</ sup>
 
 | Role | Email | Google Workspace | Expense Tool | CRM | App | Infrastructure | Version Control | Build System | Vuln Scanner |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -193,16 +193,18 @@ Additional access, beyond standard pre-approved access, must be requested and ap
 | Sales | x | x | x | x | x |  |  |  |  |
 | Sales Mgr | x | x | x | x |  |  |  |  |  |
 
-[^1]: All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+---
 
-[^2]: Reference to another Openlane template policy.
+<sup>1</ sup>All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^3]: Remove or change this if not accurate
+<sup>2</ sup>Reference to another Openlane template policy.
 
-[^4]: Delete if not relevant or not using AWS.
+<sup>3</ sup>Remove or change this if not accurate
 
-[^5]: Tailor for your environment. Consider some security standards have prescriptive requirements.
+<sup>4</ sup>Delete if not relevant or not using AWS.
 
-[^6]: If your company has a defined access management procedure, describe it here. If your company does not have such a procedure, you can delete this appendix in its entirety. The procedure described is provided as an example.
+<sup>5</ sup>Tailor for your environment. Consider some security standards have prescriptive requirements.
 
-[^7]: Example Access matrix v2.0. Predefined access based on role would not require tickets and approvals.
+<sup>6</ sup>If your company has a defined access management procedure, describe it here. If your company does not have such a procedure, you can delete this appendix in its entirety. The procedure described is provided as an example.
+
+<sup>7</ sup>Example Access matrix v2.0. Predefined access based on role would not require tickets and approvals.
