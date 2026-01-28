@@ -12,21 +12,21 @@ tags:
     - security
 ---
 
-# Risk Management Policy
+## Risk Management Policy
 
 **Policy Type: Risk Management Policy**
 
 | Company Name: | {{company_name}} |  |
 | :---- | :---- | :---- |
-| Policy Owners: | \<Policy Owners Name and Job Title\> | Phone:  |
-| Effective Date: | \<Date\> | Date Revised: \<Date\> |
-| Last Review: | \<Date\> | Next Review: \<Date\> |
+| Policy Owners: | <Policy Owners Name and Job Title> | Phone:  |
+| Effective Date: | <Date> | Date Revised: <Date> |
+| Last Review: | <Date> | Next Review: <Date> |
 
-# Purpose:
+## Purpose:
 
 To define actions to address {{company_name}} information security risks and opportunities. To define a plan for the achievement of information security and privacy objectives.
 
-# Scope:
+## Scope:
 
 * All {{company_name}} IT systems that process, store or transmit confidential, private, or business-critical data.
 * Risks that could affect the medium to long-term goals of {{company_name}} should be considered as well as risks that will be encountered in the day-to-day delivery of services.
@@ -34,11 +34,11 @@ To define actions to address {{company_name}} information security risks and opp
 * {{company_name}} will therefore consider the materiality of risk in developing systems and processes to manage risk.
 * This Policy applies to all employees of {{company_name}} and to all external parties, including but not limited to {{company_name}} consultants and contractors, business partners, vendors, suppliers, outsource service providers, and other third party entities with access to {{company_name}} networks and system resources.
 
-## Risk Management Statement
+### Risk Management Statement
 
 Inadequate IT risk management exposes {{company_name}} to risks including compromise of {{company_name}} or customer network systems, services and information, cyber-attacks, contractual, or legal issues. {{company_name}} will ensure that risk management plays an integral part in the governance and management of the organization at a strategic and operational level. The purpose of a risk management policy is designed to ensure that it achieves its stated business plan aims and objectives.
 
-## Risk Management Strategy
+### Risk Management Strategy
 
 {{company_name}} has developed processes to identify those risks that will hinder the achievement of its strategic and operational objectives. {{company_name}} will therefore ensure that it has in place the means to identify, analyze, control and monitor the strategic and operational risks it faces using this risk management policy based on best practices.
 
@@ -48,7 +48,7 @@ Inadequate IT risk management exposes {{company_name}} to risks including compro
 * The risk management policy and its operational application are regularly reviewed
 * Non-compliance is reported to appropriate company officers and authorities
 
-## Practical Application of Risk Management
+### Practical Application of Risk Management
 
 {{company_name}} has adopted a standard format for use in the identification of risks, their classification, and evaluation.
 
@@ -60,7 +60,7 @@ The format is based on the following NIST and ISO standards and frameworks:
 
 Risks are assessed and ranked according to their impact and their likelihood of occurrence. A formal Risk Assessment, and network penetration tests, will be performed at least annually and shall take into consideration the results of any technical vulnerability management activities performed in accordance with the Operations Security Policy.
 
-## Risk Categories
+### Risk Categories
 
 {{company_name}} will consider and assess risks across the organization. Risk categories that should be considered for evaluation include:
 
@@ -77,13 +77,13 @@ Risks are assessed and ranked according to their impact and their likelihood of 
 
 Each risk will be assessed as to its likelihood and impact. Both impact and likelihood are assessed on a scale of 1-5. Impact can range from 1 (“Very low impact”) to 5 (“Very high impact”) and likelihood can range from 1 (“Very unlikely”) to 5 (“Very likely”).
 
-## Risk Criteria
+### Risk Criteria
 
 The criteria for determining risk is the combined likelihood and impact of an event adversely affecting the confidentiality, availability, integrity, or privacy of organizational and customer information, personally identifiable information (PII), or business information systems.
 
 For all risk inputs such as risk assessments, vulnerability scans, penetration test, bug bounty programs, etc., {{company_name}} management shall reserve the right to modify risk rankings based on its assessment of the nature and criticality of the system processing, as well as the nature, criticality and exploitability (or other relevant factors and considerations) of the identified vulnerability.
 
-## Risk Response, Treatment, and Tracking
+### Risk Response, Treatment, and Tracking
 
 Risk will be prioritized and maintained in a risk register where they will be prioritized and mapped using the approach contained in this policy. The following responses to risk should be employed:
 
@@ -94,7 +94,7 @@ Risk will be prioritized and maintained in a risk register where they will be pr
 
 Where {{company_name}} chooses a risk response other than “Accept” or “Avoid” it shall develop a Risk Treatment Plan.
 
-## Risk Management Procedures
+### Risk Management Procedures
 
 The procedure for managing risk will meet the following criteria:
 
@@ -105,7 +105,7 @@ The procedure for managing risk will meet the following criteria:
 1. {{company_name}} will respond to risks in a prioritized fashion. Remediation priority will consider the risk likelihood and impact, cost, work effort, and availability of resources. Multiple remediations may be undertaken simultaneously
 1. Regular reports will be made to the senior leadership of {{company_name}} to ensure risks are being mitigated appropriately, and in accordance with business priorities and objectives.
 
-# Information security in project management
+## Information security in project management
 
 {{company_name}} shall consider information security risk as a part of all projects that are technical in nature or which can pose a risk to the company, regardless of size, duration, or domain. From the initial planning, through completion of a project, appropriate assessment and mitigation of information security risks is essential, involving:
 
@@ -113,7 +113,7 @@ The procedure for managing risk will meet the following criteria:
 * early identification and addressing of information security requirements, and
 * ongoing assessment and management of risks, especially concerning internal and external project communications.
 
-# Roles and Responsibilities
+## Roles and Responsibilities
 
 The following table outlines the specific risk management activities and responsibilities associated with each role.
 
@@ -125,21 +125,13 @@ The following table outlines the specific risk management activities and respons
 
 #
 
-# Other Resources
+## Other Resources
 
-## ISO 27001 / 27701 Coverage
+### ISO 27001 / 27701 Coverage
 
 ISO 27001 6.1; 6.2
 
-| Version | Date | Description | Author | Approved by |
-| ----- | ----- | ----- | ----- | ----- |
-| 1.0 | \<DATE\> | Initial Implementation | \<Author\> |  |
-| 2.0 | \<DATE\> |  | \<Author\> |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
-# APPENDIX A – Risk Assessment Process
+## APPENDIX A – Risk Assessment Process
 
 The following is a high-level overview of the process used by {{company_name}} to assess and manage information security related risks.
 
@@ -249,7 +241,7 @@ In this step, the objective is to keep current, the specific knowledge related t
 * Maintain and Update the Assessment
   * Update existing risk assessments using the results from ongoing monitoring of risk factors and by conducting additional assessments, at minimum annually.
 
-# APPENDIX B \- Risk Assessment Matrix and Description Key
+## APPENDIX B - Risk Assessment Matrix and Description Key
 
 | *RISK= LIKELIHOOD \* IMPACT* | LIKELIHOOD |  |  |  |  |
 | :---- | :---: | :---: | :---: | :---: | :---: |
@@ -282,4 +274,4 @@ In this step, the objective is to keep current, the specific knowledge related t
 | **High impact (4)** | A threat event could be expected to have a severe or catastrophic adverse effect, meaning: severe degradation or loss of mission capability and one or more primary functions cannot be performed; major damage; major financial loss; or range of effects is extensive to most cyber resources and most critical resources. | 4 |
 | **Very high impact (5)** | A threat event could be expected to have multiple severe or catastrophic adverse effects on organizational operations, assets, individuals, other organizations, or the Nation. Range of effects is sweeping, involving almost all cyber resources. | 5 |
 
-[^1]:  All fields in this document marked by angled brackets \< \> and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.

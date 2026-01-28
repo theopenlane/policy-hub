@@ -11,42 +11,36 @@ tags:
     - security
 ---
 
-# Operations Security Policy
-
-**Policy Owner:** {{policy_owner}}
-
-**Effective Date:** {{effective_date}}
-
-# Purpose
+## Purpose
 
 To ensure the correct and secure operation of information processing systems and facilities.
 
-# Scope
+## Scope
 
 All {{company_name}} information systems that are business critical and/or process, store, or transmit company data. This Policy applies to all employees of {{company_name}} and other third-party entities with access to {{company_name}} networks and system resources.
 
-# Operations Security
+## Operations Security
 
-## Documented Operating Procedures
+### Documented Operating Procedures
 
 Both technical and administrative operating procedures shall be documented as needed and made available to all users who need them.
 
-## Change Management
+### Change Management
 
 Changes to the organization, business processes, information processing facilities, production software and infrastructure, and systems that affect information security in the production environment and financial systems shall be tested, reviewed, and approved prior to production deployment. All significant changes to in-scope systems and networks must be documented.
 
-1\. Change Documentation and Review:
+1. Change Documentation and Review:
 
 * All significant changes to systems, networks, and processing facilities must be documented.
 * The documentation must encompass the change's purpose, specification, potential impact considering dependencies, and deployment plan.
 * Changes should be tested and reviewed in environments segregated from both production and development (e.g., staging environments).
 
-1\. Approval and Authorization:
+1. Approval and Authorization:
 
 * Changes with substantial impact on information security and operational functionalities, must obtain formal authorization before deployment.
 * Emergency changes may be expedited but must undergo a retrospective review and authorization.
 
-1\. Change Management Procedures:
+1. Change Management Procedures:
 
 * Planning and Impact Assessment: Evaluate potential impacts of the changes considering system dependencies.
 * Authorization: Secure necessary approvals before initiating changes
@@ -56,16 +50,16 @@ Changes to the organization, business processes, information processing faciliti
 * Emergency Management: Remediation: If changes fail or present unexpected issues, they shall be reverted
 * Documentation Maintenance: Ensure that the ticketing systems or the code repository platform keeps record of changes, commits and deployments.
 
-1\. Continuity and Consistency:
+1. Continuity and Consistency:
 
 * Ensure that the ICT continuity plans, response, and recovery procedures are updated to remain appropriate and consistent with the changes made.
 * Ensure operating documentation and user procedures are modified and remain suitable.
 
-1\. Security and Integrity:
+1. Security and Integrity:
 
 * Ensure that changes preserve and do not compromise the confidentiality, integrity, and availability of information in processing facilities and systems.
 
-## Capacity Management
+### Capacity Management
 
 The use of processing resources and system storage shall be monitored and adjusted to ensure that system availability and performance meets {{company_name}} requirements.
 
@@ -73,7 +67,7 @@ Human resource skills, availability, and capacity shall be reviewed and consider
 
 Scaling resources for additional processing or storage capacity, without changes to the system, can be done outside of the standard change management and code deployment process.
 
-## Data Leakage Prevention
+### Data Leakage Prevention
 
 In adherence to this Data Leakage Prevention Policy, and in order to minimize the risk of leakage of sensitive information, the organization shall:
 
@@ -82,7 +76,7 @@ In adherence to this Data Leakage Prevention Policy, and in order to minimize th
 
 Consider the use of technical monitoring and Data Loss Prevention (DLP) tools in accordance with the risks to the organization and data subjects
 
-## Web Filtering
+### Web Filtering
 
 The organization shall ensure safe, secure, and appropriate internet use by the organization’s personnel.
 
@@ -101,13 +95,13 @@ Usage Rules and Guidelines:
 
 * User shall conform to all company rules in accordance with the Code of Conduct and the Acceptable Use Policy found in the Information Security Policy.
 
-## Separation of Development, Staging and Production Environments[^2]
+### Separation of Development, Staging and Production Environments[^2]
 
-Development and staging environments shall be strictly segregated from production SaaS environments to reduce the risks of unauthorized access or changes to the operational environment. Confidential production customer data must not be used in development or test environments without the express approval of the \<approver of the use of customer data, e.g., VP of Customer Support\>.
+Development and staging environments shall be strictly segregated from production SaaS environments to reduce the risks of unauthorized access or changes to the operational environment. Confidential production customer data must not be used in development or test environments without the express approval of the <approver of the use of customer data, e.g., VP of Customer Support>.
 
 Refer to the Data Management Policy[^3] for a description of Confidential data. If production customer data is approved for use in the course of development or testing, it shall be scrubbed of any such sensitive information whenever feasible.
 
-# Systems and Network Configuration, Hardening, and Review
+## Systems and Network Configuration, Hardening, and Review
 
 Systems and networks shall be provisioned and maintained in accordance with the configuration and hardening standards described in Appendix A[^4] to this policy.
 
@@ -115,7 +109,7 @@ Firewalls and/or appropriate network access controls and configurations shall be
 
 Production network access configuration rules shall be reviewed at least annually. Tickets shall be created to obtain approvals for any needed changes.
 
-# Protection from Malware
+## Protection from Malware
 
 In order to protect the company’s infrastructure against the introduction of malicious software, detection, prevention, and recovery controls to protect against malware shall be implemented, combined with appropriate user awareness.
 
@@ -125,19 +119,19 @@ Anti-malware protections shall be utilized on all company-issued endpoints excep
 
 It is a violation of company policy to disable or alter the configuration of anti-malware protections without authorization.
 
-# Information Backup
+## Information Backup
 
 The need for backups of systems, databases, information and data shall be considered and appropriate backup processes shall be designed, planned and implemented. Backup procedures must include procedures for maintaining and recovering customer data in accordance with documented SLAs[^5]. Security measures to protect backups shall be designed and applied in accordance with the confidentiality or sensitivity of the data. Backup copies of information, software and system images shall be taken regularly to protect against loss of data. Backups and restore capabilities shall be periodically tested, not less than annually.
 
-Backups must be stored separately (\<describe specific requirements for separate region or availability zone\>) from the production data location.
+Backups must be stored separately (<describe specific requirements for separate region or availability zone>) from the production data location.
 
 {{company_name}} does not regularly backup user devices like laptops. Users are expected to store critical files and information in company-sanctioned file storage repositories.
 
-Backups are configured to run \<frequency of backups, e.g., daily\> on in-scope systems. The backup schedules are maintained within the backup application software.
+Backups are configured to run <frequency of backups, e.g., daily> on in-scope systems. The backup schedules are maintained within the backup application software.
 
 A backup restore test should be performed at least annually to validate the backup data and backup process.
 
-# Logging & Monitoring
+## Logging & Monitoring
 
 Production infrastructure shall be configured to produce detailed logs appropriate to the function served by the system or device. Event logs recording user activities, exceptions, faults and information security events shall be produced, kept and reviewed through manual or automated processes as needed. Appropriate alerts shall be configured for events that represent a significant threat to the confidentiality, availability or integrity of production systems or Confidential data.
 
@@ -150,23 +144,23 @@ Logging should meet the following criteria for production applications and suppo
 * Logs must include user ID, IP address, valid timestamp, type of action performed, and object of this action.
 * Logs must be stored for at least 30 days, and should not contain sensitive data or payloads
 
-## Protection of Log Information
+### Protection of Log Information
 
 Logging facilities and log information shall be protected against tampering and unauthorized access.
 
-## Administrator & Operator Logs
+### Administrator & Operator Logs
 
 System administrator and system operator activities shall be logged and reviewed and/or alerted in accordance with the system classification and criticality.
 
-## Data Restore Logs
+### Data Restore Logs
 
 In the event the company needs to restore production data containing PII from backups, either for the purposes of providing services or for testing purposes, shall be logged or tracked in auditable tickets.
 
-## Clock Synchronization
+### Clock Synchronization
 
 The clocks of all relevant information processing systems within an organization or security domain shall be synchronized to network time servers using reputable time sources.
 
-## File Integrity Monitoring and Intrusion Detection[^6]
+### File Integrity Monitoring and Intrusion Detection[^6]
 
 {{company_name}} production systems shall be configured to monitor, log, and self-repair and/or alert on suspicious changes to critical system files where feasible.
 
@@ -174,11 +168,11 @@ Alerts shall be configured for suspicious conditions and engineers shall review 
 
 Unauthorized intrusions and access attempts or changes to {{company_name}} systems shall be investigated and remediated in accordance with the Incident Response Plan.
 
-# Control of Operational Software
+## Control of Operational Software
 
 The installation of software on production systems shall follow the change management requirements defined in this policy.
 
-# Threat Intelligence
+## Threat Intelligence
 
 Information relating to information security threats should be collected and analyzed to produce threat intelligence.
 
@@ -190,15 +184,15 @@ Dissemination: Ensure effective communication of threat intelligence to pertinen
 
 Feedback: Cultivate continuous improvement by leveraging feedback for policy enhancements. Integrate feedback into policy amendments and conduct regular policy reviews.
 
-# Technical Vulnerability Management[^7]
+## Technical Vulnerability Management[^7]
 
-Information about technical vulnerabilities of information systems being used shall be obtained in a timely fashion, the organization's exposure to such vulnerabilities shall be evaluated, and appropriate measures taken to address the associated risk. A variety of methods shall be used to obtain information about technical vulnerabilities, including \<vulnerability scanning, penetration tests, review of external vendor alerts, and the bug bounty program\>.
+Information about technical vulnerabilities of information systems being used shall be obtained in a timely fashion, the organization's exposure to such vulnerabilities shall be evaluated, and appropriate measures taken to address the associated risk. A variety of methods shall be used to obtain information about technical vulnerabilities, including <vulnerability scanning, penetration tests, review of external vendor alerts, and the bug bounty program>.
 
 Vulnerability scans shall be performed on public-facing systems in the production environment at least {{frequency}}.
 
 Penetration tests of the applications and production network shall be performed at least annually, and additional scanning and testing shall be performed following major changes to production systems and software.
 
-The \<IT and Engineering\> departments shall evaluate the severity of vulnerabilities identified from any source, and if it is determined to be a risk-relevant critical or high-risk vulnerability, a service ticket will be created. The {{company_name}} assessed severity level may differ from the level automatically generated by scanning software or determined by external researchers based on {{company_name}}’s internal knowledge and understanding of technical architecture and real-world impact/exploitability. Tickets are assigned to the system, application, or platform owners for further investigation and/or remediation.
+The <IT and Engineering> departments shall evaluate the severity of vulnerabilities identified from any source, and if it is determined to be a risk-relevant critical or high-risk vulnerability, a service ticket will be created. The {{company_name}} assessed severity level may differ from the level automatically generated by scanning software or determined by external researchers based on {{company_name}}’s internal knowledge and understanding of technical architecture and real-world impact/exploitability. Tickets are assigned to the system, application, or platform owners for further investigation and/or remediation.
 
 Vulnerabilities assessed by {{company_name}} shall be patched or remediated in the following timeframes[^8]:
 
@@ -212,23 +206,23 @@ Vulnerabilities assessed by {{company_name}} shall be patched or remediated in t
 
 Service tickets for any vulnerability which cannot be remediated within the standard timeline must show a risk treatment plan and planned remediation timeline.
 
-# Restrictions on Software Installation
+## Restrictions on Software Installation
 
 Rules governing the installation of software by users shall be established and implemented in accordance with the {{company_name}} Information Security Policy[^9].
 
-# Information Systems Audit Considerations
+## Information Systems Audit Considerations
 
 Audit requirements and activities involving verification of operational systems shall be carefully planned and agreed to minimize disruptions to business processes.
 
-# Systems Security Assessment & Requirements
+## Systems Security Assessment & Requirements
 
 Risks shall be considered prior to the acquisition of, or significant changes to, systems, technologies, or facilities. Where requirements are formally identified, any relevant security requirements shall be included. The acquisition of new suppliers and services shall be made in accordance with the Third-Party Management Policy[^10].
 
 The company shall perform an annual network security assessment that includes a review of major changes to the environment such as new system components and network topology.
 
-# Data Masking
+## Data Masking
 
-\[Optional\] {{company_name}} will implement data masking based on risk or a specific requirement to do so.
+[Optional] {{company_name}} will implement data masking based on risk or a specific requirement to do so.
 
 Techniques Guidance:
 
@@ -248,116 +242,113 @@ Using Data Masking, Pseudonymization, or Anonymization:
 * Determine the suitable strength level, access controls, user agreements, and usage restrictions for processed data.
 * Prevent the combination of processed data with other information to identify PII principals and ensure traceability of provided and received processed data.
 
-# Exceptions
+## Exceptions
 
-Requests for an exception to this policy must be submitted to the \<approver of exceptions to this policy, e.g., IT Manager\> for approval.
+Requests for an exception to this policy must be submitted to the <approver of exceptions to this policy, e.g., IT Manager> for approval.
 
-# Violations & Enforcement
+## Violations & Enforcement
 
-Any known violations of this policy should be reported to the \<person who should receive reports of violations of this policy, e.g., IT Manager\>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to the <person who should receive reports of violations of this policy, e.g., IT Manager>. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-| Version | Date | Description | Author | Approved by |
-| :---: | :---: | :---: | :---: | :---: |
-| \<1.0\> | \<27-Jan-2026\> | \<First Version\> | \<OWNER\> | \<APPROVER\> |
-|  |  |  |  |  |
 
-# APPENDIX A \- Configuration and Hardening Standards
 
-\<NOTE TO CUSTOMER: Templates are provided as informational reference. Standards like SOC2 and ISO 27001 do not prescribe any particular configuration or hardening. Further guidance can be found in ISO 27002 for Control A.8.9 Configuration Management \- Remove this language from the policy upon edit\>
+## APPENDIX A - Configuration and Hardening Standards
 
-\<Configuration and hardening standards shall be maintained on the internal documentation portal.\>
+<NOTE TO CUSTOMER: Templates are provided as informational reference. Standards like SOC2 and ISO 27001 do not prescribe any particular configuration or hardening. Further guidance can be found in ISO 27002 for Control A.8.9 Configuration Management - Remove this language from the policy upon edit>
 
-\<link\>[^11]
+<Configuration and hardening standards shall be maintained on the internal documentation portal.>
 
-\<Include links to external sources, or internally created samples:\>
+<link>[^11]
 
-\<[https://aws.amazon.com/compliance/resources/](https://aws.amazon.com/compliance/resources/)\>
+<Include links to external sources, or internally created samples:>
 
-\<Address baseline config management and deployment per control 3.4, 7.1\>
+<[https://aws.amazon.com/compliance/resources/](https://aws.amazon.com/compliance/resources/)>
 
-**\<Servers and Virtual Machines\>[^12]**
+<Address baseline config management and deployment per control 3.4, 7.1>
 
-\<This is the standard for system-level server and virtual server (VM) configuration hardening. Some customization to these settings may be required  to configure the system for its specific target environment, such as setting the proper names, groups, authentication settings, and other personalization options.\>
+**<Servers and Virtual Machines>[^12]**
 
-\<INSERT OS/SYSTEM BASELINE\>[^13]
+<This is the standard for system-level server and virtual server (VM) configuration hardening. Some customization to these settings may be required  to configure the system for its specific target environment, such as setting the proper names, groups, authentication settings, and other personalization options.>
 
-\<In addition to the requirements to secure systems to the baseline outlined above, all physical and virtual systems must adhere to the following technical requirements:\>
+<INSERT OS/SYSTEM BASELINE>[^13]
 
-* \<All vendor default passwords (including default passwords on operating systems, software providing security services, application and system accounts, Simple Network Management Protocol (SNMP) community strings, etc.) must be changed before a system is installed on the network.\>
-* \<Unnecessary default accounts (including accounts used by operating systems, security software, applications, systems, SNMP, etc.) must be removed or disabled before a system is installed on the network.\>
-* \<Only one primary function may be implemented per server or virtual machine to prevent functions that require different security levels from coexisting on the same system.\>
-* \<Only necessary services, protocols, daemons, etc., may be enabled, and only as required for the function of the system.  All unnecessary functionality (such as scripts, drivers, features, subsystems, file systems, and unnecessary web servers) must be disabled.\>
-* \<All security patches identified as \<critical, high, or medium\> must be applied to systems within SLAs established in this policy.\>
+<In addition to the requirements to secure systems to the baseline outlined above, all physical and virtual systems must adhere to the following technical requirements:>
 
-**\<Network Standards\>**
+* <All vendor default passwords (including default passwords on operating systems, software providing security services, application and system accounts, Simple Network Management Protocol (SNMP) community strings, etc.) must be changed before a system is installed on the network.>
+* <Unnecessary default accounts (including accounts used by operating systems, security software, applications, systems, SNMP, etc.) must be removed or disabled before a system is installed on the network.>
+* <Only one primary function may be implemented per server or virtual machine to prevent functions that require different security levels from coexisting on the same system.>
+* <Only necessary services, protocols, daemons, etc., may be enabled, and only as required for the function of the system.  All unnecessary functionality (such as scripts, drivers, features, subsystems, file systems, and unnecessary web servers) must be disabled.>
+* <All security patches identified as <critical, high, or medium> must be applied to systems within SLAs established in this policy.>
 
-* \<Management of network rules and settings may only be performed by authorized members of \<ENGINEERING TEAM etc.\> and all changes must comply with change Management procedures defined in the Operations Security Policy.\>
+**<Network Standards>**
 
-* \<Supported network controls for production networks are \<TYPE e.g. AWS NACLs\>. Management of production network systems is accomplished through the use of \<MANAGEMENT SYSTEM, SSH, ETC\>\>
+* <Management of network rules and settings may only be performed by authorized members of <ENGINEERING TEAM etc.> and all changes must comply with change Management procedures defined in the Operations Security Policy.>
 
-* \<In the \<PRODUCTION ENVIRONMENT\>, defined rules and configurations must be enforced to control traffic from untrusted networks (e.g. publicly available services) to internal production networks\>
+* <Supported network controls for production networks are <TYPE e.g. AWS NACLs>. Management of production network systems is accomplished through the use of <MANAGEMENT SYSTEM, SSH, ETC>>
 
-* \<Network control systems must be configured to use default Network Address Translation to prevent the disclosure of internal IP addresses to the Internet.\>
+* <In the <PRODUCTION ENVIRONMENT>, defined rules and configurations must be enforced to control traffic from untrusted networks (e.g. publicly available services) to internal production networks>
 
-* \<Mobile devices connecting to production networks must meet the requirements of the Mobile Device Policy found in the Information Security Policy.\>
+* <Network control systems must be configured to use default Network Address Translation to prevent the disclosure of internal IP addresses to the Internet.>
 
-* \<All network control systems must be configured with default antispoofing rules to block or deny inbound internal addresses originating from the Internet\>
-* \<External configurations must limit inbound traffic to only system components that provide authorized publicly accessible services, protocols, and ports.\>
+* <Mobile devices connecting to production networks must meet the requirements of the Mobile Device Policy found in the Information Security Policy.>
 
-* \<Use of insecure services and protocols without justification and documentation of additional security features implemented to mitigate risk is prohibited.\>
+* <All network control systems must be configured with default antispoofing rules to block or deny inbound internal addresses originating from the Internet>
+* <External configurations must limit inbound traffic to only system components that provide authorized publicly accessible services, protocols, and ports.>
 
-* \<Remote access sessions must be configured to enforce timeout after a specified period of \<X hours\>.\>
+* <Use of insecure services and protocols without justification and documentation of additional security features implemented to mitigate risk is prohibited.>
 
-* \<Remote-access technologies for vendors and business partners used to access production systems must be enabled only when needed for business purposes and immediately deactivated after use.\>
+* <Remote access sessions must be configured to enforce timeout after a specified period of <X hours>.>
 
-* \<Any hybrid networks with both cloud and on-premise access shall be scanned and tested at least annually to ensure that security requirements are maintained.[^14]\>
+* <Remote-access technologies for vendors and business partners used to access production systems must be enabled only when needed for business purposes and immediately deactivated after use.>
 
-* \<OTHER COMPANY SPECIFIC REQUIREMENTS\>
+* <Any hybrid networks with both cloud and on-premise access shall be scanned and tested at least annually to ensure that security requirements are maintained.[^14]>
+
+* <OTHER COMPANY SPECIFIC REQUIREMENTS>
 
 I. Cloud Hardening
 
-1\. Identity and Access Management (IAM)
+1. Identity and Access Management (IAM)
 
 * Least Privilege Principle: Ensure each entity (user, service, system) possesses minimal necessary access.
 * Enforce Multi-Factor Authentication (MFA) for production access
 
-1\. Data Storage and Management
+1. Data Storage and Management
 
 * Data Encryption: Ensure encryption for data at rest and in transit in accordance with the *Cryptography Policy*
-* \[Optional if requiring VPN\] Private Endpoints: Enable private endpoints and VPNs to safeguard against data interception.
+* [Optional if requiring VPN] Private Endpoints: Enable private endpoints and VPNs to safeguard against data interception.
 * Data Lifecycle Management: Configure backups for customer data repositories.
 
-1\. Network Security
+1. Network Security
 
 * Isolation: Utilize VPC and subnets to isolate environments and segment networks.
 * Firewalls: Implement cloud-native or third-party firewall solutions and DDoS protection services.
 
-1\. Monitoring and Logging
+1. Monitoring and Logging
 
 * Logging: Configure logging focusing on write-once-read-many storage to prevent tampering.
 * Alerting: Implement cloud-based alerting (Amazon CloudWatch, Azure Alerts) for real-time incident response.
 
 II. Container Hardening
 
-1\. Image Security
+1. Image Security
 
-* Secure Source Image: Create images only from {{company_name}}\-authorized base images or repositories
+* Secure Source Image: Create images only from {{company_name}}-authorized base images or repositories
 * Minimalist Design: Adopt minimal base images to reduce attack vectors.
 
-1\. Runtime Security
+1. Runtime Security
 
 Runtime Analysis: Implement runtime security tools for live vulnerability and threat detection.
 
-1\. Network Security
+1. Network Security
 
 Policy-Based Controls: Implement network policies using third party or cloud native tools.
 
-1\. Orchestration Security
+1. Orchestration Security
 
 * API Server: Shield the API server with appropriate firewalls, IAM controls, and secure communication channels.
 * RBAC: Establish and periodically review orchestration access privileges, ensuring conformance to the least privilege principle.
 
-1\. CI/CD Security
+1. CI/CD Security
 
 Pipeline Access: Minimize access to CI/CD pipelines, employing role-based access controls and audit trails.
 
@@ -390,7 +381,7 @@ NACLs and Traffic Control
 
 * Establish stringent rules governing traffic in accordance with a define business justification
 
-[^1]:  All fields in this document marked by angled brackets \< \> and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
 
 [^2]:  Describe your company’s policy for segregation of environments. If you use different categorizations of data (i.e., don’t use “confidential”), then make sure to update those references here.
 

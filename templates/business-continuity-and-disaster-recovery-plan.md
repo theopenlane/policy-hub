@@ -9,28 +9,22 @@ tags:
     - availability
 ---
 
-# Business Continuity and Disaster Recovery (BC/DR)[^2]
-
-**Policy Owner:** {{policy_owner}}
-
-**Effective Date:** {{effective_date}}
-
-# Purpose
+## Purpose
 
 The purpose of this business continuity plan is to prepare {{company_name}} in the event of service outages caused by factors beyond our control (e.g., natural disasters, man-made events), and to restore services to the widest extent possible in a minimum time frame.
 
-# Scope
+## Scope
 
 All {{company_name}} IT systems that are business critical. This policy applies to all employees of {{company_name}} and to all relevant external parties, including but not limited to {{company_name}} consultants and contractors.
 
 The following scenarios are excluded from the BC/DR plan scope[^3]:
 
-* Loss of availability for a production hosting service provider (i.e., \<production hosting service provider, e.g., AWS\>)
+* Loss of availability for a production hosting service provider (i.e., <production hosting service provider, e.g., AWS>)
 * Loss of availability of {{company_name}} satellite offices (these will be considered incidents)
 
-In the event of a loss of availability of a hosting service provider, the \<driver of the response, e.g., VP of Global Support\> will confer with the \<assistants for the response, e.g., IT Manager and executive staff\> to determine an appropriate response strategy[^4].
+In the event of a loss of availability of a hosting service provider, the <driver of the response, e.g., VP of Global Support> will confer with the <assistants for the response, e.g., IT Manager and executive staff> to determine an appropriate response strategy[^4].
 
-# Policy
+## Policy
 
 In the event of a major disruption to production services and a disaster affecting the availability and/or security of the {{company_name}} office, senior managers and executive staff shall determine mitigation actions.
 
@@ -40,30 +34,30 @@ Continuity of information security shall be considered along with operational co
 
 In the case of an information security event or incident, refer to the Incident Response Plan[^5].
 
-# Alternate Work Facilities
+## Alternate Work Facilities
 
 If the {{company_name}} office becomes unavailable due to a disaster, all staff shall work remotely from their homes or any safe location.
 
-# Communications and Escalation
+## Communications and Escalation
 
 Executive staff and senior managers should be notified of any disaster affecting {{company_name}} facilities or operations.
 
-Communications shall take place over any available regular channels including \<list your company’s regular communication channels, e.g., Slack, email, phone and online meeting tools\>.
+Communications shall take place over any available regular channels including <list your company’s regular communication channels, e.g., Slack, email, phone and online meeting tools>.
 
-Key contacts shall be maintained on the on-call schedule and key contacts: \<link to wiki page that lists out key contacts\>[^6]
+Key contacts shall be maintained on the on-call schedule and key contacts: <link to wiki page that lists out key contacts>[^6]
 
-# Roles and Responsibilities[^7]
+## Roles and Responsibilities[^7]
 
 | Role | Responsibility |
 | :---- | :---- |
-| \<IT Manager\> | The IT Manager shall lead BC/DR efforts to mitigate losses and recover the corporate network and information systems. |
-| \<Departmental Heads\> | Each department head shall be responsible for communications with their departmental staff and any actions needed to maintain continuity of their business functions. Departmental heads shall communicate regularly with executive staff and the IT Manager. |
-| \<Managers\>  | Managers shall be responsible for communicating with their direct reports and providing any needed assistance for staff to continue working from alternative locations. |
-| \<VP of Global Support\>  | The VP of Global Support, in conjunction with the CEO and CFO shall be responsible for any external and client communications regarding any disaster or business continuity actions that are relevant to customers and third parties. |
-| \<VP of Engineering\> | The VP of Engineering, in conjunction with the VP of Global Support, shall be responsible for leading efforts to maintain continuity of {{company_name}} services to customers during a disaster. |
-| \<Chief HR Officer\> | The CHRO shall be responsible for internal communications to employees as well as any action needed to maintain physical health and safety of the workforce. The CHRO shall work with the IT Manager to ensure continuity of physical security at the {{company_name}} office. |
+| <IT Manager> | The IT Manager shall lead BC/DR efforts to mitigate losses and recover the corporate network and information systems. |
+| <Departmental Heads> | Each department head shall be responsible for communications with their departmental staff and any actions needed to maintain continuity of their business functions. Departmental heads shall communicate regularly with executive staff and the IT Manager. |
+| <Managers>  | Managers shall be responsible for communicating with their direct reports and providing any needed assistance for staff to continue working from alternative locations. |
+| <VP of Global Support>  | The VP of Global Support, in conjunction with the CEO and CFO shall be responsible for any external and client communications regarding any disaster or business continuity actions that are relevant to customers and third parties. |
+| <VP of Engineering> | The VP of Engineering, in conjunction with the VP of Global Support, shall be responsible for leading efforts to maintain continuity of {{company_name}} services to customers during a disaster. |
+| <Chief HR Officer> | The CHRO shall be responsible for internal communications to employees as well as any action needed to maintain physical health and safety of the workforce. The CHRO shall work with the IT Manager to ensure continuity of physical security at the {{company_name}} office. |
 
-# Continuity of Critical Services
+## Continuity of Critical Services
 
 Procedures for maintaining continuity of critical services in a disaster can be found in Appendix A[^8].
 
@@ -79,33 +73,33 @@ Strategy for maintaining continuity of services can be seen in the following tab
 | Finance, Legal and HR | All systems are vendor-hosted SaaS applications. |
 | Sales and Marketing | All systems are vendor-hosted SaaS applications. |
 
-### Plan Activation
+#### Plan Activation
 
-### This BC/DR shall be automatically activated in the event of the loss or unavailability of the {{company_name}} office, or a natural disaster (i.e., severe weather, regional power outage, earthquake) affecting the larger \<describe the location of your company’s headquarters, e.g., San Francisco, CA\> region.
+#### This BC/DR shall be automatically activated in the event of the loss or unavailability of the {{company_name}} office, or a natural disaster (i.e., severe weather, regional power outage, earthquake) affecting the larger <describe the location of your company’s headquarters, e.g., San Francisco, CA> region.
 
 | Version | Date | Description | Author | Approved by |
 | :---: | :---: | :---: | :---: | :---: |
-| \<1.0\> | \<29-Apr-2026\> | \<First Version\> | \<OWNER\> | \<APPROVER\> |
+| <1.0> | <29-Apr-2026> | <First Version> | <OWNER> | <APPROVER> |
 |  |  |  |  |  |
 
-# Appendix A – Business Continuity Procedures by Scenario[^10]
+## Appendix A – Business Continuity Procedures by Scenario[^10]
 
-## Business Continuity Scenarios
+### Business Continuity Scenarios
 
-### HQ Offline (power and/or network)
+#### HQ Offline (power and/or network)
 
 * CRM, Telephony, Video Conferencing/Screen Share & Corp Email unaffected
 * SUPPORT unaffected
 * HQ Staff offline (30-60 minutes)
 * Remote Staff unaffected (US)
 
-#### *Procedure:*
+##### *Procedure:*
 
 1. HQ Staff relocate to home offices (30-60 minutes)
 2. Verify Telephony, CRM, & Email Connectivity at home offices (10 minutes)
 3. Remotely resume normal operations 
 
-### Colo Offline (power and/or network)
+#### Colo Offline (power and/or network)
 
 * CRM, Telephony, Video Conferencing/Screen Share & Corp Email unaffected
 * SUPPORT Offline
@@ -113,54 +107,54 @@ Strategy for maintaining continuity of services can be seen in the following tab
 * HQ Staff unaffected
 * Remote Staff unaffected (US)
 
-#### *Procedure:*
+##### *Procedure:*
 
 1. Notify Customer Base that proactive monitoring is offline
 2. Normal operations continue
 
-### Disaster Event at HQ (\<Location 1\> & \<Location 2\>)
+#### Disaster Event at HQ (<Location 1> & <Location 2>)
 
 * CRM, Telephony, Video Conferencing/Screen Share & Corp Email unaffected
 * SUPPORT offline
 * HQ Staff offline (variable impact)
 * Remote Staff unaffected (US)
 
-#### *Procedure:*
+##### *Procedure:*
 
 3. Activate Remote Staff (US)
 4. Notify Customer Base of impaired functions & potential delays
 5. Commandeer Field Resources for Critical Response (SE Teams)
 
-### SaaS Tools Down
+#### SaaS Tools Down
 
 * CRM, Telephony, Video Conferencing/Screen Share, or Corp Email Affected
 * SUPPORT partially affected (no new cases, manual triage required)
 * HQ Staff unaffected
 * Remote Staff unaffected (US)
 
-#### *Procedures:*
+##### *Procedures:*
 
-##### *Telephony Down*
+###### *Telephony Down*
 
 1. Notify Customer Base to use Support Portal or Email
 2. Support Staff use Mobile Phones and/or Land Lines as needed
 
-##### *Email Down (Gmail/Corp Email)*
+###### *Email Down (Gmail/Corp Email)*
 
 1. Support Staff manually manage ‘case’ related communications
 2. Support Staff use alternate email accounts as needed (Hotmail)
 
-##### *CRM Down*
+###### *CRM Down*
 
 1. Notify Customer Base that CRM is down
 2. Activate ‘Spreadsheet’ Case Tracking (Google Sheets)
 3. Leverage ‘Production’ Database for Entitlements, Case History, Configuration data.
 
-##### *Video Conferencing/ScreenShare Down (Zoom)*
+###### *Video Conferencing/ScreenShare Down (Zoom)*
 
 4. Support Staff utilize alternate service as needed
 
-# Appendix B – RTOs/RPOs[^11]
+## Appendix B – RTOs/RPOs[^11]
 
 | Rank | Asset | Affected Assets | Business Impact | Users | Owners | Recovery Time Objective (RTO) | Recovery Point Objective (RPO) | Comments / Gaps |
 | :---: | ----- | ----- | ----- | ----- | ----- | :---: | :---: | ----- |
@@ -177,7 +171,7 @@ Strategy for maintaining continuity of services can be seen in the following tab
 |  | Personal Mobile Device | Hardware |  |  |  |  |  |  |
 |  | Wireless Access Points (WAP) | Hardware |  | All | IT Ops |  |  |  |
 
-[^1]:  All fields in this document marked by angled brackets \< \> and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
 
 [^2]:  BC/DR Policies and Plans differ significantly between different organizations. If you have an existing plan that works you should consider keeping it. You can also find other examples and templates. Pick what works best for your organization.
 

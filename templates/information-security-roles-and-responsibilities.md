@@ -11,29 +11,23 @@ tags:
     - security
 ---
 
-# Information Security Roles and Responsibilities Policy
-
-**Policy Owner:** {{policy_owner}}
-
-**Effective Date:** {{effective_date}}
-
-# Statement of Policy
+## Statement of Policy
 
 {{company_name}} is committed to conducting business in compliance with all applicable laws, regulations, and company policies. {{company_name}} has adopted this policy to outline the security measures required to protect electronic information systems and related equipment from unauthorized use.
 
-# Objective
+## Objective
 
 This policy and associated guidance establish the roles and responsibilities within {{company_name}}, which is critical for effective communication of information security policies and standards. Roles are required within the organization to provide clearly defined responsibilities and an understanding of how the protection of information is to be accomplished. Their purpose is to clarify, coordinate activity, and actions necessary to disseminate security policy, standards, and implementation.
 
-# Applicability
+## Applicability
 
 This policy is applicable to all {{company_name}} infrastructure, network segments, systems, and employees and contractors who provide security and IT functions.
 
-# Audience
+## Audience
 
 The audience for this policy includes all {{company_name}} employees and contractors who are involved with the Information Security Program. Awareness of this policy applies for all other agents of {{company_name}} with access to {{company_name}} information and infrastructure. This includes, but is not limited to partners, affiliates, contractors, temporary employees, trainees, guests, and volunteers. The titles will be referred collectively hereafter as “{{company_name}} community”.
 
-# Roles and Responsibilities[^2]
+## Roles and Responsibilities[^2]
 
 | Roles | Responsibilities |
 | :---- | :---- |
@@ -48,15 +42,10 @@ The audience for this policy includes all {{company_name}} employees and contrac
 | Chief Human Resources Officer | Ensuring employees and contractors are qualified and competent for their roles Ensuring appropriate testing and background checks are completed Ensuring that employees and relevant contractors are presented with company policies and the Code of Conduct (CoC) Ensuring that employee performance and adherence the CoC is periodically evaluated Ensuring that employees receive appropriate security training |
 | CFO | Responsible for oversight over third-party risk management process Responsible for review of vendor service contracts |
 
-# Policy Compliance
+## Policy Compliance
 
-The \<role responsible for measuring compliance, e.g., IT Manager\> will measure the compliance to this policy through various methods, including, but not limited to—reports, internal/external audits, and feedback to the policy owner. Exceptions to the policy must be approved by the \<approver of exceptions to this policy, e.g., IT Manager\> in advance. Non-compliance will be addressed with management and Human Resources and can result in disciplinary action in accordance with company procedures up to and including termination of employment.
+The <role responsible for measuring compliance, e.g., IT Manager> will measure the compliance to this policy through various methods, including, but not limited to—reports, internal/external audits, and feedback to the policy owner. Exceptions to the policy must be approved by the <approver of exceptions to this policy, e.g., IT Manager> in advance. Non-compliance will be addressed with management and Human Resources and can result in disciplinary action in accordance with company procedures up to and including termination of employment.
 
-| Version | Date | Description | Author | Approved by |
-| :---: | :---: | :---: | :---: | :---: |
-| \<1.0\> | \<27-Jan-2026\> | \<First Version\> | \<OWNER\> | \<APPROVER\> |
-|  |  |  |  |  |
-
-[^1]:  All fields in this document marked by angled brackets \< \> and highlighted must be filled in.
+[^1]:  All fields in this document marked by angled brackets < > and highlighted must be filled in.
 
 [^2]:  Customize for your organization. Roles and responsibilities can be assigned however it makes sense for your company.
