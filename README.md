@@ -1,34 +1,28 @@
 # Openlane Policy Hub
 
-This repository contains example **organizational policies** grouped by domain — such as security, privacy, and operations — to help teams establish a strong foundation for compliance, governance, and risk management.
+This repository contains template **organizational policies** to help teams establish a strong foundation for compliance, governance, and risk management.
 
 Each policy is written in Markdown and includes standardized frontmatter metadata so it can be easily imported, remixed, or adapted for your organization.
 
----
+## Instructions
 
-## Repository Structure
+**For each policy section**
 
-- Each folder represents a **domain** of compliance
-- Each file is a single policy document
+* Consider if this section and its corresponding risks apply to you. If it does not, remove it and/or replace it with your organization’s corresponding practices
+* Replace any text in braces e.g. `{{company_name}}` with the appropriate name, date, frequency
+* Update any language in angeled brackets with language specific to your organization; each policy should have something like: [^1]:  All fields in this document marked by angled brackets \< \> and highlighted must be filled in.
+* Rewrite the policy language such that it reflects the practices of your organization
 
-```
-├── security
-│   ├── access-control.md
-│   ├── change-management.md
-│   ├── disaster-recovery.md
-│   ├── employee.md
-│   ├── encryption.md
-│   ├── incident-response.md
-│   ├── log.md
-│   ├── password.md
-│   ├── risk-assessment.md
-│   ├── testing.md
-│   ├── vendor.md
-│   └── workstation.md
-├── availability
-│   ├── availability.md
-│   └── business-continuity.md
-```
+**Policy completion checklist**
+
+1. Use Find to make sure that all text in braces is replaced
+1. Proofread your policy for spelling and grammar mistakes
+1. Confirm that the policy’s content reflects your organizations practices
+1. Add any company-specific letterhead, branding, and formatting
+
+**More questions?**
+
+A good rule-of-thumb is to keep your language at a high enough level such that it stays representative for at least a year. If you have more questions about how to use this template, please reach out to [support@theopenlane.io](mailto:support@theopenlane.io) or your auditor for additional guidance.
 
 ## File Structure
 
@@ -47,7 +41,6 @@ Each policy is written in Markdown and includes standardized frontmatter metadat
 
 We welcome contributions to improve or extend these examples
 
-1. Follow the existing folder structure
 1. Use valid YAML frontmatter
 1. Keep filenames in kebab-case (e.g. access-control-policy.md)
 1. Keep titles in `Title Case`
