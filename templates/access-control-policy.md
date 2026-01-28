@@ -111,7 +111,7 @@ Control and management of individual user passwords is the responsibility of all
 Where feasible, passwords for confidential systems shall be configured for at least &lt;minimum password requirements&gt; :
 
 * &lt;e.g., eight (8) or more characters, one upper case, one number
-* &lt;Systems shall be configured to remember and prohibit reuse of passwords for last &lt;16&gt;  passwords used&gt;
+* &lt;Systems shall be configured to remember and prohibit reuse of passwords for last &lt;16&gt; passwords used&gt;
 * &lt;Passwords shall be set to lock out after &lt;6&gt;  failed attempts&gt;
 * &lt;Passwords shall expire after &lt;90 days&gt; &gt;
 * &lt;Initial passwords must be set to a unique value and changed after first log in&gt;
@@ -192,8 +192,6 @@ Additional access, beyond standard pre-approved access, must be requested and ap
 | Engineer Sprvs | x | x | x |  | x | x | x | x | x |
 | Sales | x | x | x | x | x |  |  |  |  |
 | Sales Mgr | x | x | x | x |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
 
 [^1]: All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
