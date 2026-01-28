@@ -17,12 +17,12 @@ The purpose of this business continuity plan is to prepare {{company_name}} in t
 
 All {{company_name}} IT systems that are business critical. This policy applies to all employees of {{company_name}} and to all relevant external parties, including but not limited to {{company_name}} consultants and contractors.
 
-The following scenarios are excluded from the BC/DR plan scope[^3]:
+The following scenarios are excluded from the BC/DR plan scope[\^3]:
 
 * Loss of availability for a production hosting service provider (i.e., &lt;production hosting service provider, e.g., AWS&gt; )
 * Loss of availability of {{company_name}} satellite offices (these will be considered incidents)
 
-In the event of a loss of availability of a hosting service provider, the &lt;driver of the response, e.g., VP of Global Support&gt;  will confer with the &lt;assistants for the response, e.g., IT Manager and executive staff&gt;  to determine an appropriate response strategy[^4].
+In the event of a loss of availability of a hosting service provider, the &lt;driver of the response, e.g., VP of Global Support&gt;  will confer with the &lt;assistants for the response, e.g., IT Manager and executive staff&gt;  to determine an appropriate response strategy[\^4].
 
 ## Policy
 
@@ -32,7 +32,7 @@ A disaster recovery test, including a test of backup restoration processes, shal
 
 Continuity of information security shall be considered along with operational continuity.
 
-In the case of an information security event or incident, refer to the Incident Response Plan[^5].
+In the case of an information security event or incident, refer to the Incident Response Plan[\^5].
 
 ## Alternate Work Facilities
 
@@ -44,9 +44,9 @@ Executive staff and senior managers should be notified of any disaster affecting
 
 Communications shall take place over any available regular channels including &lt;list your company’s regular communication channels, e.g., Slack, email, phone and online meeting tools&gt; .
 
-Key contacts shall be maintained on the on-call schedule and key contacts: &lt;link to wiki page that lists out key contacts&gt; [^6]
+Key contacts shall be maintained on the on-call schedule and key contacts: &lt;link to wiki page that lists out key contacts&gt; [\^6]
 
-## Roles and Responsibilities[^7]
+## Roles and Responsibilities[\^7]
 
 | Role | Responsibility |
 | :---- | :---- |
@@ -59,11 +59,11 @@ Key contacts shall be maintained on the on-call schedule and key contacts: &lt;l
 
 ## Continuity of Critical Services
 
-Procedures for maintaining continuity of critical services in a disaster can be found in Appendix A[^8].
+Procedures for maintaining continuity of critical services in a disaster can be found in Appendix A[\^8].
 
 Recovery Time Objectives (RTO) and Recovery Point Objects (RPO) can be found in Appendix B.
 
-Strategy for maintaining continuity of services can be seen in the following table[^9]:
+Strategy for maintaining continuity of services can be seen in the following table[\^9]:
 
 | KEY BUSINESS PROCESS | CONTINUITY STRATEGY |
 | :---- | :---- |
@@ -75,14 +75,9 @@ Strategy for maintaining continuity of services can be seen in the following tab
 
 #### Plan Activation
 
-#### This BC/DR shall be automatically activated in the event of the loss or unavailability of the {{company_name}} office, or a natural disaster (i.e., severe weather, regional power outage, earthquake) affecting the larger &lt;describe the location of your company’s headquarters, e.g., San Francisco, CA&gt;  region.
+This BC/DR shall be automatically activated in the event of the loss or unavailability of the {{company_name}} office, or a natural disaster (i.e., severe weather, regional power outage, earthquake) affecting the larger &lt;describe the location of your company’s headquarters, e.g., San Francisco, CA&gt; region.
 
-| Version | Date | Description | Author | Approved by |
-| :---: | :---: | :---: | :---: | :---: |
-| &lt;1.0&gt;  | &lt;29-Apr-2026&gt;  | &lt;First Version&gt;  | &lt;OWNER&gt;  | &lt;APPROVER&gt;  |
-|  |  |  |  |  |
-
-## Appendix A – Business Continuity Procedures by Scenario[^10]
+## Appendix A – Business Continuity Procedures by Scenario[\^10]
 
 ### Business Continuity Scenarios
 
@@ -93,7 +88,7 @@ Strategy for maintaining continuity of services can be seen in the following tab
 * HQ Staff offline (30-60 minutes)
 * Remote Staff unaffected (US)
 
-##### *Procedure:*
+##### Procedure:
 
 1. HQ Staff relocate to home offices (30-60 minutes)
 2. Verify Telephony, CRM, & Email Connectivity at home offices (10 minutes)
@@ -107,7 +102,7 @@ Strategy for maintaining continuity of services can be seen in the following tab
 * HQ Staff unaffected
 * Remote Staff unaffected (US)
 
-##### *Procedure:*
+##### Procedure:
 
 1. Notify Customer Base that proactive monitoring is offline
 2. Normal operations continue
@@ -119,7 +114,7 @@ Strategy for maintaining continuity of services can be seen in the following tab
 * HQ Staff offline (variable impact)
 * Remote Staff unaffected (US)
 
-##### *Procedure:*
+##### Procedure:
 
 3. Activate Remote Staff (US)
 4. Notify Customer Base of impaired functions & potential delays
@@ -132,63 +127,63 @@ Strategy for maintaining continuity of services can be seen in the following tab
 * HQ Staff unaffected
 * Remote Staff unaffected (US)
 
-##### *Procedures:*
+##### Procedures:
 
-###### *Telephony Down*
+###### Telephone Down
 
 1. Notify Customer Base to use Support Portal or Email
-2. Support Staff use Mobile Phones and/or Land Lines as needed
+1. Support Staff use Mobile Phones and/or Land Lines as needed
 
-###### *Email Down (Gmail/Corp Email)*
+###### Email Down (Gmail/Corp Email)
 
 1. Support Staff manually manage ‘case’ related communications
-2. Support Staff use alternate email accounts as needed (Hotmail)
+1. Support Staff use alternate email accounts as needed (Hotmail)
 
-###### *CRM Down*
+###### CRM Down
 
 1. Notify Customer Base that CRM is down
-2. Activate ‘Spreadsheet’ Case Tracking (Google Sheets)
-3. Leverage ‘Production’ Database for Entitlements, Case History, Configuration data.
+1. Activate ‘Spreadsheet’ Case Tracking (Google Sheets)
+1. Leverage ‘Production’ Database for Entitlements, Case History, Configuration data.
 
 ###### *Video Conferencing/ScreenShare Down (Zoom)*
 
 4. Support Staff utilize alternate service as needed
 
-## Appendix B – RTOs/RPOs[^11]
+## Appendix B – RTOs/RPOs[\^11]
 
 | Rank | Asset | Affected Assets | Business Impact | Users | Owners | Recovery Time Objective (RTO) | Recovery Point Objective (RPO) | Comments / Gaps |
 | :---: | ----- | ----- | ----- | ----- | ----- | :---: | :---: | ----- |
 | 1 | Google Datacenters | Site | Core services | All | Engineering |  |  |  |
 | 2 | Corporate Office | Site | Inability to access data? Any other impacts? | All | IT Ops |  |  |  |
-|  | Corporate Network | Network | Inability to use network resources from corporate office | All | IT Ops |  |  |  |
-|  | Google Cloud | Network | Core services | All | Engineering |  |  |  |
-|  | Home Office ISP Networks | Network |  | IT Ops, Development | N/A |  |  |  |
-|  | Subcontractor Networks | Network |  | Development | N/A |  |  |  |
-|  | Third Party Networks | Network |  | Sales | N/A |  |  |  |
-|  | Company Laptops | Hardware |  | All | IT Ops |  |  |  |
-|  | Digital Projector | Hardware |  | All | IT Ops |  |  |  |
-|  | Office Printers | Hardware | Inability to print in corporate office | All | IT Ops |  |  |  |
-|  | Personal Mobile Device | Hardware |  |  |  |  |  |  |
-|  | Wireless Access Points (WAP) | Hardware |  | All | IT Ops |  |  |  |
+| 3 | Corporate Network | Network | Inability to use network resources from corporate office | All | IT Ops |  |  |  |
+| 4 | Google Cloud | Network | Core services | All | Engineering |  |  |  |
+| 5 | Home Office ISP Networks | Network |  | IT Ops, Development | N/A |  |  |  |
+| 6 | Subcontractor Networks | Network |  | Development | N/A |  |  |  |
+| 7 | Third Party Networks | Network |  | Sales | N/A |  |  |  |
+| 8 | Company Laptops | Hardware |  | All | IT Ops |  |  |  |
+| 9 | Digital Projector | Hardware |  | All | IT Ops |  |  |  |
+| 10 | Office Printers | Hardware | Inability to print in corporate office | All | IT Ops |  |  |  |
+| 11 | Personal Mobile Device | Hardware |  |  |  |  |  |  |
+| 12 | Wireless Access Points (WAP) | Hardware |  | All | IT Ops |  |  |  |
 
-[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+[\^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^2]:  BC/DR Policies and Plans differ significantly between different organizations. If you have an existing plan that works you should consider keeping it. You can also find other examples and templates. Pick what works best for your organization.
+[\^2]:  BC/DR Policies and Plans differ significantly between different organizations. If you have an existing plan that works you should consider keeping it. You can also find other examples and templates. Pick what works best for your organization.
 
-[^3]:  Exclusions to this policy should be customized to your organization. Your company may not have any exclusions in which case you can remove this language. These scenarios are provided as an example.
+[\^3]:  Exclusions to this policy should be customized to your organization. Your company may not have any exclusions in which case you can remove this language. These scenarios are provided as an example.
 
-[^4]:  Change or remove this language based on your organization’s needs.
+[\^4]:  Change or remove this language based on your organization’s needs.
 
-[^5]:  This is a reference to another Openlane document. If you are not planning on using this document, describe how your company will respond to an information security event or incident here. It is, however, highly recommended that your organization has an Incident Response Plan because a managed approach to incident response is a requirement for all information security management standards.
+[\^5]:  This is a reference to another Openlane document. If you are not planning on using this document, describe how your company will respond to an information security event or incident here. It is, however, highly recommended that your organization has an Incident Response Plan because a managed approach to incident response is a requirement for all information security management standards.
 
-[^6]:  If your company does not use a wiki or some form of an internal knowledge base that can be linked here, you can list out the key contacts in this document. If you list out the contacts here, however, you will need to continually update this document and your employees may have to re-accept this policy if there are major changes.
+[\^6]:  If your company does not use a wiki or some form of an internal knowledge base that can be linked here, you can list out the key contacts in this document. If you list out the contacts here, however, you will need to continually update this document and your employees may have to re-accept this policy if there are major changes.
 
-[^7]:  Adjust this table of roles and responsibilities to describe the roles and responsibilities for members of the BC/DR team
+[\^7]:  Adjust this table of roles and responsibilities to describe the roles and responsibilities for members of the BC/DR team
 
-[^8]:  This references an appendix in this document. If you describe these procedures elsewhere, update this reference.
+[\^8]:  This references an appendix in this document. If you describe these procedures elsewhere, update this reference.
 
-[^9]:  Adjust the table below the describe your company’s continuity strategies
+[\^9]:  Adjust the table below the describe your company’s continuity strategies
 
-[^10]:  In this appendix, describe your company’s business continuity procedures. The scenarios listed in this table are examples of what you might consider including.
+[\^10]:  In this appendix, describe your company’s business continuity procedures. The scenarios listed in this table are examples of what you might consider including.
 
-[^11]:  Customize for your business
+[\^11]:  Customize for your business

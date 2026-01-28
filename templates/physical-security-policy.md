@@ -45,7 +45,7 @@ Access points such as delivery and loading areas and other points where unauthor
 
 ### Supplier, Vendor, and Third-Party Security
 
-Suppliers, vendors, and third-parties shall comply with {{company_name}} physical security and environmental controls requirements. {{company_name}} shall assess the adequacy of third-party physical security controls as part of the vendor management process, in accordance with the Third-Party Management Policy[^2].
+Suppliers, vendors, and third-parties shall comply with {{company_name}} physical security and environmental controls requirements. {{company_name}} shall assess the adequacy of third-party physical security controls as part of the vendor management process, in accordance with the Third-Party Management Policy[\^2].
 
 ## Exceptions
 
@@ -55,6 +55,6 @@ Requests for an exception to this policy must be submitted to the &lt;approver o
 
 Any known violations of this policy should be reported to the &lt;receiver of reports of violations to this policy, e.g., CHRO&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+[\^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^2]:  This sentence references another Openlane policy. If you are not planning on using this policy, describe your company’s third-party vendor management practices here. If your company does not use third-parties, delete this sentence.
+[\^2]:  This sentence references another Openlane policy. If you are not planning on using this policy, describe your company’s third-party vendor management practices here. If your company does not use third-parties, delete this sentence.

@@ -134,7 +134,7 @@ Third-parties maintain a secure development program consistent with industry sof
 
 ### Physical & Environmental Security
 
-If third-parties are storing or processing confidential data, their physical and environmental security controls should meet the requirements of the {{company_name}} Physical Security Policy[^2].
+If third-parties are storing or processing confidential data, their physical and environmental security controls should meet the requirements of the {{company_name}} Physical Security Policy[\^2].
 
 ### Human Resources
 
@@ -155,6 +155,6 @@ Requests for an exception to this Policy must be submitted to the &lt;approver o
 
 Any known violations of this policy should be reported to the &lt;person responsible for receiving policy violation reports, e.g., CFO&gt; . Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-[^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
+[\^1]:  All fields in this document marked by angled brackets &lt; &gt;  and highlighted must be filled in.
 
-[^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, describe your company’s physical and environmental security controls here.
+[\^2]:  This is a reference to another Openlane policy. If you are not planning on using this policy, describe your company’s physical and environmental security controls here.
